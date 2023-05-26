@@ -3191,7 +3191,7 @@ p {
     position: relative;
     overflow: hidden;
 }
-.sectors-banner .secotr-banner-img, .sectors-banner .sector-vid {
+.sectors-banner .sector-banner-img, .sectors-banner .sector-vid {
     width: 100%;
     height: 750px;
     -o-object-fit: cover;
@@ -3203,11 +3203,11 @@ p {
     transform: scale(1.1);
 }
 @media(max-width:480px) {
-    .sectors-banner .secotr-banner-img, .sectors-banner .sector-vid {
+    .sectors-banner .sector-banner-img, .sectors-banner .sector-vid {
         height: 400px;
     }
 }@media(max-width:1024px) {
-    .sectors-banner .secotr-banner-img, .sectors-banner .sector-vid {
+    .sectors-banner .sector-banner-img, .sectors-banner .sector-vid {
         height: 60vh;
         min-height: 400px;
     }
@@ -5990,7 +5990,7 @@ p {
     width: 38px;
     height: 38px;
 }
-.news-details-p .sectors-banner .secotr-banner-img, .news-details-p .sectors-banner .sector-vid {
+.news-details-p .sectors-banner .sector-banner-img, .news-details-p .sectors-banner .sector-vid {
     height: 200px;
 }
 .news-details-p .sector-banner-details {

@@ -6,15 +6,14 @@
             <div class="wrap-panl-float" id="panel-pin">
                 <section class="sectors-banner">
                     <picture>
-                        <img src="./assets/images/global/banner-singapore.jpg" class="secotr-banner-img"
-                             alt="sector-banner">
+                        <img src="./assets/images/global/banner-singapore.jpg" class="sector-banner-img" alt="sector-banner">
                     </picture>
                 </section>
 
                 <aside id="sidePanel" class="country-side-panel" data-scroll data-scroll-sticky data-scroll-target="#panel-pin">
                     <ul class="country-link-wrap">
 
-                        <li class="active-count-list country-slidepanal-list">
+                        <li class="<?php if(isset($_GET["country"]) && $_GET["country"] == "Singapore") { echo "active-count-list"; }?> country-slidepanel-list">
                             <a href="./global.php?country=Singapore" class="wrap-country">
                                 <div class="contry-flag-name">
                                     <img src="./assets/images/flag/singapore.jpg" alt="country-flag">
@@ -23,7 +22,7 @@
                             </a>
                         </li>
 
-                        <li class=" country-slidepanal-list">
+                        <li class="<?php if(isset($_GET["country"]) && $_GET["country"] == "Bangladesh") { echo "active-count-list"; }?> country-slidepanel-list">
                             <a href="./global.php?country=Bangladesh" class="wrap-country">
                                 <div class="contry-flag-name">
                                     <img src="./assets/images/flag/bangladesh.jpg" alt="country-flag">
@@ -39,7 +38,7 @@
                             </a>
                         </li>
 
-                        <li class=" country-slidepanal-list">
+                        <li class="<?php if(isset($_GET["country"]) && $_GET["country"] == "Nepal") { echo "active-count-list"; }?> country-slidepanel-list">
                             <a href="./global.php?country=Nepal" class="wrap-country">
                                 <div class="contry-flag-name">
                                     <img src="./assets/images/flag/nepal.jpg" alt="country-flag">
@@ -55,7 +54,7 @@
                             </a>
                         </li>
 
-                        <li class="country-slidepanal-list">
+                        <li class="<?php if(isset($_GET["country"]) && $_GET["country"] == "India") { echo "active-count-list"; }?> country-slidepanel-list">
                             <a href="./global.php?country=India" class="wrap-country">
                                 <div class="contry-flag-name">
                                     <img src="./assets/images/flag/india.jpg" alt="country-flag">
@@ -71,7 +70,7 @@
                             </a>
                         </li>
 
-                        <li class="country-slidepanal-list">
+                        <li class="<?php if(isset($_GET["country"]) && $_GET["country"] == "Sri Lanka") { echo "active-count-list"; }?> country-slidepanel-list">
                             <a href="./global.php?country=Sri Lanka" class="wrap-country">
                                 <div class="contry-flag-name">
                                     <img src="./assets/images/flag/srilanka.jpg" alt="country-flag">
