@@ -1,0 +1,114 @@
+/* milestones page */
+
+.milestone-p .milestones-section .milestone-thumb-wrap .slick-active .year-itm span {
+    background-color: transparent;
+}
+.milestone-p .milestones-section .milestone-thumb-wrap .slick-active.slick-current .year-itm span {
+    background-color: red;
+}
+.milestone-p .milestones-section .milestone-thumb-wrap .year-itm span{
+    min-width: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+
+/* News page */
+.news-details-p .news-details-wrap .news-detsils-contents .social-media-sec ul{
+    padding: 0px;
+}
+.news-details-p .news-details-wrap .news-detsils-contents .social-media-sec ul li{
+    list-style-type: none;
+}
+
+.news-p .wrap-sector-banner-contnet .pagination{
+    margin-bottom: 30px;
+}
+
+.news-p .wrap-sector-banner-contnet .pagination li a{
+    color: #2561b5;
+}
+.news-p .wrap-sector-banner-contnet .pagination li span{
+    background: #2561b5;
+}
+
+
+
+/*  about us */
+.about-p .video-and-overview .youtube-video{
+    z-index: 10;
+}
+
+
+/* directors */
+.directors-p .group-members .wrap-group-member .wrap-group-member-containe .gp-content-tab-wrap{
+    width: 54%;
+    background: #e0e5ed;
+}
+
+.directors-p .group-members .wrap-group-member .wrap-group-member-containe .gp-content-tab-wrap p{
+    font-size: 1rem;
+}
+
+
+/* media */
+.media-p .wrap-sector-banner-contnet{
+    background-image: url('../images/footer/noise-img.jpg');
+}
+
+.media-p  .wrap-sector-banner-contnet .container--v .sector-banner-details .wrap-sector-contnet{
+    transform: translate( 0,0);
+}
+
+.media-p  .wrap-sector-banner-contnet .container--v .sector-banner-details{
+    max-width: 750px;
+}
+.media-p .wrap-web .container--v{
+    max-width: 1440px;
+}
+.media-p  .sector-banner-details{
+    margin-top: -286px;
+}
+
+
+/* sector */
+.sectors-p .sector-gallery .wrap-sector-gallery .swiper-button-prev{
+ left: 50px;
+}
+
+.sectors-p .sector-gallery .wrap-sector-gallery .swiper-button-next{
+    right: 50px;
+}
+
+.sectors-p .wrap-build-globaly .swiper-wrapper{
+    justify-content: center;
+}
+
+.invester-p .sector-banner-details .wrap-sector-contnet .secotr-txt{
+    padding-bottom: 30px;
+}
+
+
+
+
+/*responsive*/
+@media(max-width: 1024px){
+
+    .about-p .video-and-overview .youtube-video{
+        width: 100%;
+        padding: 0px 30px;
+    }
+
+    .sectors-p .wrap-build-globaly .swiper-wrapper{
+        justify-content: normal;
+    }
+
+    .thumbSlider-wrap .btn-next{
+        right: -15px;
+        z-index: 10;
+    }
+    .thumbSlider-wrap .btn-prev{
+        left: -15px;
+        z-index: 10;
+    }
+}
