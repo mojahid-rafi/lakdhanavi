@@ -19,7 +19,7 @@
                                         <a href="/">Home</a>
                                     </li>
                                     <li class="active-page">
-                                        <a href="community-and-environment.php">Community &amp; Environment</a>
+                                        <a href="esg.php">Community &amp; Environment</a>
                                     </li>
                                 </ul>
 

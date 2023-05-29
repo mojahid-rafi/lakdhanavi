@@ -556,9 +556,9 @@
                             <p>Lakdhanavi Ltd. Group Company Profitability</p>
                         </div>
                         <div class="global-footprint">
-                            <h2 class="animate-num" style="opacity: 0; transform: translate(0px, -50px);">00+ Countries
+                            <h2 class="animate-num" style="opacity: 0; transform: translate(0px, -50px);">15
                             </h2>
-                            <p>Global Footprint</p>
+                            <p>Completed Project</p>
                         </div>
                     </div>
                 </div>
@@ -569,15 +569,15 @@
                         <p>Asset Value</p>
                     </div>
                     <div class="bn">
-                        <h2 class="animate-num" style="opacity: 0; transform: translate(0px, -50px);">$ 00</h2>
-                        <p>Gross Income</p>
+                        <h2 class="animate-num" style="opacity: 0; transform: translate(0px, -50px);">210</h2>
+                        <p>Total Manpower</p>
                     </div>
                 </div>
             </div>
             <div class="bt-panel">
                 <div class="lf-section">
                     <div class="group-buttons">
-                        <div class="grp-btn active-tab-btn" data-id="deputy" data-img="deputy-img">
+                        <div class="grp-btn" data-id="deputy" data-img="deputy-img">
                             <p class="name">Chairman's Message</p>
                             <div class="wrap-ovel-icon">
                                 <div class="ovel-icon">
@@ -593,7 +593,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="grp-btn" data-id="director" data-img="director-img">
+                        <div class="grp-btn active-tab-btn" data-id="director" data-img="director-img">
                             <p class="name">Director's Message</p>
                             <div class="wrap-ovel-icon">
                                 <div class="ovel-icon">
@@ -602,7 +602,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="massage-sec content active" id="deputy">
+                    <div class="massage-sec content" id="deputy">
                         <div class="message">
                             <h3>Chairman's Message</h3>
                             <blockquote>
@@ -640,7 +640,7 @@
                         <img src="./assets/images/home/message-ovel.png" alt="icon" class="message-ovel">
                         <img src="./assets/images/home/qoute.png" alt="image" class="qoute-img">
                     </div>
-                    <div class="massage-sec content" id="director">
+                    <div class="massage-sec content active" id="director">
                         <div class="message">
                             <h3>Director's Message</h3>
                             <blockquote>

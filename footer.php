@@ -160,11 +160,11 @@
                                 <a href="#">Global</a>
                             </li>
                             <li>
-                                <a href="#">Community &amp; Environment</a>
+                                <a href="#">ESG</a>
                             </li>
-                            <li>
-                                <a href="#">Investor Relations</a>
-                            </li>
+<!--                            <li>-->
+<!--                                <a href="#">Investor Relations</a>-->
+<!--                            </li>-->
                             <li>
                                 <a href="#">About us</a>
                             </li>
