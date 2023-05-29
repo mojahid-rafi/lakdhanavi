@@ -149,7 +149,7 @@
 
                                         <table class="table table-bordered">
                                             <tr>
-                                                <th style="width: 200px">Company Number </th>
+                                                <th>Company Number </th>
                                                 <td>200605562M</td>
                                             </tr>
                                             <tr>

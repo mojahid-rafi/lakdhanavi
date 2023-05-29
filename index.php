@@ -578,7 +578,15 @@
                 <div class="lf-section">
                     <div class="group-buttons">
                         <div class="grp-btn active-tab-btn" data-id="deputy" data-img="deputy-img">
-                            <p class="name">Deputy Chairman's Message</p>
+                            <p class="name">Chairman's Message</p>
+                            <div class="wrap-ovel-icon">
+                                <div class="ovel-icon">
+                                    <img src="./assets/images/home/right-arrow.png" alt="icon">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grp-btn" data-id="ceo" data-img="director-img">
+                            <p class="name">CEO Message</p>
                             <div class="wrap-ovel-icon">
                                 <div class="ovel-icon">
                                     <img src="./assets/images/home/right-arrow.png" alt="icon">
@@ -586,7 +594,7 @@
                             </div>
                         </div>
                         <div class="grp-btn" data-id="director" data-img="director-img">
-                            <p class="name">Group Managing Director's Message</p>
+                            <p class="name">Director's Message</p>
                             <div class="wrap-ovel-icon">
                                 <div class="ovel-icon">
                                     <img src="./assets/images/home/right-arrow.png" alt="icon">
@@ -613,9 +621,28 @@
                         <img src="./assets/images/home/message-ovel.png" alt="icon" class="message-ovel">
                         <img src="./assets/images/home/qoute.png" alt="image" class="qoute-img">
                     </div>
+                    <div class="massage-sec content" id="ceo">
+                        <div class="message">
+                            <h3>CEO</h3>
+                            <blockquote>
+                                The reason for my optimism is that even with some of the premature investments in the
+                                portfolio, 80% of our Profit Before Tax is derived from overseas investments, which
+                                assures our partners and shareholders that our diversified business interests will
+                                always enable the Group to achieve growth regardless of challenges in Sri Lankan
+                                operations.
+                            </blockquote>
+                            <div class="name-details">
+                                <h4>Mr. Mohamed Jalaldeen Nuhuman Marikkar</h4>
+                                <p>CEO </p>
+                                <p>Lakdhanavi Holdings Ltd. </p>
+                            </div>
+                        </div>
+                        <img src="./assets/images/home/message-ovel.png" alt="icon" class="message-ovel">
+                        <img src="./assets/images/home/qoute.png" alt="image" class="qoute-img">
+                    </div>
                     <div class="massage-sec content" id="director">
                         <div class="message">
-                            <h3>Group Managing Director's Message</h3>
+                            <h3>Director's Message</h3>
                             <blockquote>
                                 "Over the last four decades, we have grown from a stand-alone leasing company to a
                                 sprawling multi-sector business group that touches millions of lives every day.
@@ -624,8 +651,8 @@
                                 and economic growth."
                             </blockquote>
                             <div class="name-details">
-                                <h4>Mr.Kapila Jayawardena</h4>
-                                <p>Group Managing Director/CEO </p>
+                                <h4>Mr. U Gamini Sarath</h4>
+                                <p>Director</p>
                                 <p>Lakdhanavi Ltd. Group </p>
                             </div>
                         </div>
