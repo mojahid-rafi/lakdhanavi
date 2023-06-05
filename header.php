@@ -206,27 +206,25 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="./global.php">Global</a>
-                </li>
-
-                <li class="nav-item">
                     <a class="nav-link" href="esg.php">ESG</a>
                 </li>
 
-<!--                <li class="nav-item">-->
-<!--                    <a class="nav-link" href="./investor-relations.php">Investor Relations</a>-->
-<!--                </li>-->
+                <li class="nav-item">
+                    <a class="nav-link" href="./global.php?country=Singapore">Global</a>
+                </li>
 
-<!--                <li class="nav-item">-->
-<!--                    <a class="nav-link" href="./investor-relations.php">Commercials</a>-->
-<!--                </li>-->
+                <!--                            <li class="nav-item">-->
+                <!--                                <a class="nav-link" href="./investor-relations.php">Investor Relations</a>-->
+                <!--                            </li>-->
 
+                <!--                            <li class="nav-item">-->
+                <!--                                <a class="nav-link" href="./investor-relations.php">Commercials</a>-->
+                <!--                            </li>-->
 
 
                 <li class="nav-item">
                     <a class="nav-link" href="./contact.php">Contact Us</a>
                 </li>
-
 
             </ul>
         </div>
@@ -241,7 +239,6 @@
             </a>
             <ul class="nav">
 
-
                 <li class="nav-item">
                     <a class="nav-link" href="./about-us.php">About us</a>
                 </li>
@@ -255,16 +252,16 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="./global.php">Global</a>
+                    <a class="nav-link" href="./global.php?country=Singapore">Global</a>
                 </li>
 
-<!--                <li class="nav-item dropdown">-->
-<!--                    <a class="nav-link" href="./investor-relations.php">Investor Relations</a>-->
-<!--                </li>-->
+                <!--                            <li class="nav-item">-->
+                <!--                                <a class="nav-link" href="./investor-relations.php">Investor Relations</a>-->
+                <!--                            </li>-->
 
-<!--                <li class="nav-item">-->
-<!--                    <a class="nav-link" href="./investor-relations.php">Commercials</a>-->
-<!--                </li>-->
+                <!--                            <li class="nav-item">-->
+                <!--                                <a class="nav-link" href="./investor-relations.php">Commercials</a>-->
+                <!--                            </li>-->
 
 
                 <li class="nav-item">
@@ -283,7 +280,7 @@
             <ul class="nav">
 
                 <li class="nav-item">
-                    <a class="nav-link" href="./global.php">Global</a>
+                    <a class="nav-link" href="./about-us.php">About us</a>
                 </li>
 
                 <li class="nav-item">
@@ -295,17 +292,17 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="./investor-relations.php">Investor
-                        Relations</a>
+                    <a class="nav-link" href="./global.php?country=Singapore">Global</a>
                 </li>
 
-<!--                <li class="nav-item">-->
-<!--                    <a class="nav-link" href="./investor-relations.php">Commercials</a>-->
-<!--                </li>-->
+                <!--                            <li class="nav-item">-->
+                <!--                                <a class="nav-link" href="./investor-relations.php">Investor Relations</a>-->
+                <!--                            </li>-->
 
-                <li class="nav-item">
-                    <a class="nav-link" href="./about-us.php">About us</a>
-                </li>
+                <!--                            <li class="nav-item">-->
+                <!--                                <a class="nav-link" href="./investor-relations.php">Commercials</a>-->
+                <!--                            </li>-->
+
 
                 <li class="nav-item">
                     <a class="nav-link" href="./contact.php">Contact Us</a>

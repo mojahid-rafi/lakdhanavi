@@ -1,4 +1,4 @@
-<?php $cls = "sectors-p"; ?>
+<?php $cls = "invester-p awards-p com-and-en-p"; ?>
 <?php include('header.php')?>
 
     <div class="invester-p awards-p com-and-en-p">

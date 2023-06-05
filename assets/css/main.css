@@ -3184,7 +3184,7 @@ p {
     animation: flip-icon .5s ease-in-out;
 }
 .subslinks .inner-section-link.active-inner-link {
-    background-color: #0f4187;
+    /*background-color: #0f4187;*/
 }
 .sectors-banner {
     width: 100%;
@@ -3485,6 +3485,147 @@ p {
     margin-top: 60px;
     padding-bottom: 47px;
 }
+
+/*Core Business SideBar*/
+
+.portfolio-section {
+    padding: 50px 0;
+    /*background-color: #000;*/
+}
+.portfolio-section h2 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+}
+.portfolio-menu {
+    text-align: center;
+}
+.control {
+    background: #2F3975;
+    color: #fff;
+    padding: 5px 10px;
+    border: 1px solid #2F3975;
+    border-radius: 3px;
+    margin: 5px;
+    cursor: pointer;
+    -webkit-transition: all 05s ease;
+    -moz-transition: all 05s ease;
+    -ms-transition: all 05s ease;
+    -o-transition: all 05s ease;
+    transition: all 0.5s ease;
+}
+.control:hover {
+    background: #f89f32;
+}
+.mixitup-control-active {
+    color: #fff;
+    background: #f89f32;
+}
+.fancybox-container button:focus {
+    outline: 0;
+    box-shadow: none;
+}
+.portfolio-item {
+    padding-top: 30px;
+}
+.pd {
+    padding: 0;
+    padding: 10px;
+}
+.pd img {
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+}
+.portfolio-overlay {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    visibility: hidden;
+    transition: all 0.5s;
+    transform: scale(0);
+}
+.portfolio-overlay p,
+.portfolio-overlay a {
+    position: relative;
+    z-index: 4;
+}
+.portfolio-overlay::before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-width: 0;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    transition: 50ms height ease 150ms;
+    z-index: 3;
+}
+.portfolio-overlay::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-width: 0;
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+    transition: 100ms width ease 200ms;
+    z-index: 3;
+}
+.portfolio-item:hover .portfolio-overlay::before {
+    width: 80%;
+    height: 80%;
+    border-top: 1px solid #f89f32;
+    border-right: 1px solid #f89f32;
+    transition: width 0.1s ease 0.3s, height 0.1s ease 0.5s;
+}
+.portfolio-item:hover .portfolio-overlay::after {
+    width: 80%;
+    height: 80%;
+    border-bottom: 1px solid #f89f32;
+    border-left: 1px solid #f89f32;
+    transition: width 0.1s ease 0.6s, height 0.1s ease 0.7s;
+}
+.portfolio-item li:hover .portfolio-overlay {
+    visibility: visible;
+    transform: scale(1);
+}
+.portfolio-overlay .category {
+    margin-top: 130px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+}
+.portfolio-overlay .magnify-icon {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    background: #f89f32;
+    margin: 0 5px;
+    cursor: pointer;
+    display: inline-block;
+    transition: all 0.25s;
+}
+.portfolio-overlay .magnify-icon:hover {
+    background: #000;
+}
+.portfolio-overlay .magnify-icon p span i {
+    font-size: 15px;
+    color: #fff;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+
+/*Core Business SideBar*/
+
 .service-filter-box-wrap .service-filter-box {
     cursor: pointer;
     width: 100%;
@@ -7576,4 +7717,91 @@ footer .f-country-s span {
 
     list-style-type:  circle;
 
+}
+
+
+/*Core-Business*/
+
+span.msg,
+span.choose {
+    color: #555;
+    padding: 5px 0 10px;
+    display: inherit
+}
+.container {
+    width: 500px;
+    margin: 50px auto 0;
+    text-align: center
+}
+
+/*Styling Selectbox*/
+.dropdown {
+    width: 300px;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 0 2px rgb(204, 204, 204);
+    transition: all .5s ease;
+    position: relative;
+    font-size: 14px;
+    color: #474747;
+    height: 100%;
+    text-align: left
+}
+.dropdown .select {
+    cursor: pointer;
+    display: block;
+    padding: 10px
+}
+.dropdown .select > i {
+    font-size: 13px;
+    color: #888;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    float: right;
+    line-height: 20px
+}
+.dropdown:hover {
+    box-shadow: 0 0 4px rgb(204, 204, 204)
+}
+.dropdown:active {
+    background-color: #f8f8f8
+}
+.dropdown.active:hover,
+.dropdown.active {
+    box-shadow: 0 0 4px rgb(204, 204, 204);
+    border-radius: 2px 2px 0 0;
+    background-color: #f8f8f8
+}
+.dropdown.active .select > i {
+    transform: rotate(-90deg)
+}
+.dropdown .dropdown-menu {
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    left: 0;
+    margin-top: 1px;
+    box-shadow: 0 1px 2px rgb(204, 204, 204);
+    border-radius: 0 1px 2px 2px;
+    overflow: hidden;
+    display: none;
+    max-height: 144px;
+    overflow-y: auto;
+    z-index: 9
+}
+.dropdown .dropdown-menu li {
+    padding: 10px;
+    transition: all .2s ease-in-out;
+    cursor: pointer
+}
+.dropdown .dropdown-menu {
+    padding: 0;
+    list-style: none
+}
+.dropdown .dropdown-menu li:hover {
+    background-color: #f2f2f2
+}
+.dropdown .dropdown-menu li:active {
+    background-color: #e2e2e2
 }

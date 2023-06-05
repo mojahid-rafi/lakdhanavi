@@ -1,4 +1,4 @@
-<?php $cls = "sectors-p"; ?>
+<?php $cls = "invester-p about-p"; ?>
 <?php include('header.php')?>
 
 

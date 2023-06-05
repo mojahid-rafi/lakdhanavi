@@ -135,10 +135,31 @@
 
         </section>
 
+        <section class="custom">
+            <div class="col-3">
+                <div class="core-business">
+
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="page-info">
+
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="statistics">
+
+                </div>
+            </div>
+        </section>
+
         <div class="wrap-sector-banner-contnet" data-scroll-section>
             <div class="container--v">
                 <div class="wrap-banner-and-statistics">
+
+
                     <div class="sector-banner-details ani-prop">
+
                         <div class="wrap-sector-contnet">
                             <div class="wrap-title-sec">
                                 <ul class="breadcrumb-new">
@@ -184,13 +205,288 @@
                 </div>
             </div>
 
-            <section class="flow-chart">
-                <div class="container--v3">
-                    <div class="wrap-flow-chart">
-                        <img src="./assets/images/utilities/sector-finance.png" alt="flow-chart">
+
+            <section class="portfolio-section" id="portfolio">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12 text-center">
+                            <h2>Our Project</h2>
+                        </div>
                     </div>
+                    <div class="portfolio-menu mt-2 mb-4">
+                        <nav class="controls">
+                            <button type="button" class="control outline" data-filter="all">All</button>
+                            <button type="button" class="control outline" data-filter=".web">Power Generation</button>
+                            <button type="button" class="control outline" data-filter=".dev">O &amp; M</button>
+                            <button type="button" class="control outline" data-filter=".wp">Diversified</button>
+                        </nav>
+                    </div>
+                    <ul class="row portfolio-item">
+
+                        <li class="mix web col-xl-4 col-md-4 col-12 col-sm-6 pd ">
+                            <img src="https://placehold.co/600x400/png" itemprop="thumbnail" alt="Image description" />
+                            <div class="portfolio-overlay">
+                                <div class="overlay-content">
+                                    <p class="category">Project Name</p>
+                                    <a href="#" title="View Project" target="_blank">
+                                        <div class="magnify-icon">
+                                            <p><span><i class="fa fa-link" aria-hidden="true"></i></span></p>
+                                        </div>
+                                    </a>
+                                    <a data-fancybox="item" title="click to zoom-in" href="https://placehold.co/600x400/png">
+                                        <div class="magnify-icon">
+                                            <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="mix dev col-xl-4 col-md-4 col-12 col-sm-6 pd ">
+                            <img src="https://placehold.co/600x400/png" itemprop="thumbnail" alt="Image description" />
+                            <div class="portfolio-overlay">
+                                <div class="overlay-content">
+                                    <p class="category">Project Name</p>
+                                    <a href="#" title="View Project" target="_blank">
+                                        <div class="magnify-icon">
+                                            <p><span><i class="fa fa-link" aria-hidden="true"></i></span></p>
+                                        </div>
+                                    </a>
+                                    <a data-fancybox="item" title="click to zoom-in" href="https://placehold.co/600x400/png" data-size="1200x600">
+                                        <div class="magnify-icon">
+                                            <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="mix wp col-xl-4 col-md-4 col-12 col-sm-6 pd ">
+                            <img src="https://placehold.co/600x400/png" itemprop="thumbnail" alt="Image description" />
+                            <div class="portfolio-overlay">
+                                <div class="overlay-content">
+                                    <p class="category">Project Name</p>
+                                    <a href="#" title="View Project" target="_blank">
+                                        <div class="magnify-icon">
+                                            <p><span><i class="fa fa-link" aria-hidden="true"></i></span></p>
+                                        </div>
+                                    </a>
+                                    <a data-fancybox="item" title="click to zoom-in" href="https://placehold.co/600x400/png" data-size="1200x600">
+                                        <div class="magnify-icon">
+                                            <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="mix dev col-xl-4 col-md-4 col-12 col-sm-6 pd ">
+                            <img src="https://placehold.co/600x400/png" itemprop="thumbnail" alt="Image description" />
+                            <div class="portfolio-overlay">
+                                <div class="overlay-content">
+                                    <p class="category">Project Name</p>
+                                    <a href="#" title="View Project" target="_blank">
+                                        <div class="magnify-icon">
+                                            <p><span><i class="fa fa-link" aria-hidden="true"></i></span></p>
+                                        </div>
+                                    </a>
+                                    <a data-fancybox="item" title="click to zoom-in" href="https://placehold.co/600x400/png" data-size="1200x600">
+                                        <div class="magnify-icon">
+                                            <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="mix web col-xl-4 col-md-4 col-12 col-sm-6 pd ">
+                            <img src="https://placehold.co/600x400/png" itemprop="thumbnail" alt="Image description" />
+                            <div class="portfolio-overlay">
+                                <div class="overlay-content">
+                                    <p class="category">Project Name</p>
+                                    <a href="#" title="View Project" target="_blank">
+                                        <div class="magnify-icon">
+                                            <p><span><i class="fa fa-link" aria-hidden="true"></i></span></p>
+                                        </div>
+                                    </a>
+                                    <a data-fancybox="item" title="click to zoom-in" href="https://placehold.co/600x400/png" data-size="1200x600">
+                                        <div class="magnify-icon">
+                                            <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="mix wp col-xl-4 col-md-4 col-12 col-sm-6 pd ">
+                            <img src="https://placehold.co/600x400/png" itemprop="thumbnail" alt="Image description" />
+                            <div class="portfolio-overlay">
+                                <div class="overlay-content">
+                                    <p class="category">Project Name</p>
+                                    <a href="#" title="View Project" target="_blank">
+                                        <div class="magnify-icon">
+                                            <p><span><i class="fa fa-link" aria-hidden="true"></i></span></p>
+                                        </div>
+                                    </a>
+                                    <a data-fancybox="item" title="click to zoom-in" href="https://placehold.co/600x400/png" data-size="1200x600">
+                                        <div class="magnify-icon">
+                                            <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="mix dev col-xl-4 col-md-4 col-12 col-sm-6 pd">
+                            <img src="https://placehold.co/600x400/png" itemprop="thumbnail" alt="Image description" />
+                            <div class="portfolio-overlay">
+                                <div class="overlay-content">
+                                    <p class="category">Project Name</p>
+                                    <a href="#" title="View Project" target="_blank">
+                                        <div class="magnify-icon">
+                                            <p><span><i class="fa fa-link" aria-hidden="true"></i></span></p>
+                                        </div>
+                                    </a>
+                                    <a data-fancybox="item" title="click to zoom-in" href="https://placehold.co/600x400/png" data-size="1200x600">
+                                        <div class="magnify-icon">
+                                            <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="mix web col-xl-4 col-md-4 col-12 col-sm-6 pd">
+                            <img src="https://placehold.co/600x400/png" itemprop="thumbnail" alt="Image description" />
+                            <div class="portfolio-overlay">
+                                <div class="overlay-content">
+                                    <p class="category">Project Name</p>
+                                    <a href="#" title="View Project" target="_blank">
+                                        <div class="magnify-icon">
+                                            <p><span><i class="fa fa-link" aria-hidden="true"></i></span></p>
+                                        </div>
+                                    </a>
+                                    <a data-fancybox="item" title="click to zoom-in" href="https://placehold.co/600x400/png" data-size="1200x600">
+                                        <div class="magnify-icon">
+                                            <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="mix wp col-xl-4 col-md-4 col-12 col-sm-6 pd">
+                            <img src="https://placehold.co/600x400/png" itemprop="thumbnail" alt="Image description" />
+                            <div class="portfolio-overlay">
+                                <div class="overlay-content">
+                                    <p class="category">Project Name</p>
+                                    <a href="#" title="View Project" target="_blank">
+                                        <div class="magnify-icon">
+                                            <p><span><i class="fa fa-link" aria-hidden="true"></i></span></p>
+                                        </div>
+                                    </a>
+                                    <a data-fancybox="item" title="click to zoom-in" href="https://placehold.co/600x400/png" data-size="1200x600">
+                                        <div class="magnify-icon">
+                                            <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="mix dev col-xl-4 col-md-4 col-12 col-sm-6 pd">
+                            <img src="https://placehold.co/600x400/png" itemprop="thumbnail" alt="Image description" />
+                            <div class="portfolio-overlay">
+                                <div class="overlay-content">
+                                    <p class="category">Project Name</p>
+                                    <a href="#" title="View Project" target="_blank">
+                                        <div class="magnify-icon">
+                                            <p><span><i class="fa fa-link" aria-hidden="true"></i></span></p>
+                                        </div>
+                                    </a>
+                                    <a data-fancybox="item" title="click to zoom-in" href="https://placehold.co/600x400/png" data-size="1200x600">
+                                        <div class="magnify-icon">
+                                            <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="mix wp col-xl-4 col-md-4 col-12 col-sm-6 pd">
+                            <img src="https://placehold.co/600x400/png" itemprop="thumbnail" alt="Image description" />
+                            <div class="portfolio-overlay">
+                                <div class="overlay-content">
+                                    <p class="category">Project Name</p>
+                                    <a href="#" title="View Project" target="_blank">
+                                        <div class="magnify-icon">
+                                            <p><span><i class="fa fa-link" aria-hidden="true"></i></span></p>
+                                        </div>
+                                    </a>
+                                    <a data-fancybox="item" title="click to zoom-in" href="https://placehold.co/600x400/png" data-size="1200x600">
+                                        <div class="magnify-icon">
+                                            <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="mix web col-xl-4 col-md-4 col-12 col-sm-6 pd">
+                            <img src="https://placehold.co/600x400/png" itemprop="thumbnail" alt="Image description" />
+                            <div class="portfolio-overlay">
+                                <div class="overlay-content">
+                                    <p class="category">Project Name</p>
+                                    <a href="#" title="View Project" target="_blank">
+                                        <div class="magnify-icon">
+                                            <p><span><i class="fa fa-link" aria-hidden="true"></i></span></p>
+                                        </div>
+                                    </a>
+                                    <a data-fancybox="item" title="click to zoom-in" href="https://placehold.co/600x400/png" data-size="1200x600">
+                                        <div class="magnify-icon">
+                                            <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
                 </div>
             </section>
+
+            <script>
+                // 1. querySelector
+                var containerEl = document.querySelector(".portfolio-item");
+                // 2. Passing the configuration object inline
+                //https://www.kunkalabs.com/mixitup/docs/configuration-object/
+                var mixer = mixitup(containerEl, {
+                    animation: {
+                        effects: "fade translateZ(-100px)",
+                        effectsIn: "fade translateY(-100%)",
+                        easing: "cubic-bezier(0.645, 0.045, 0.355, 1)"
+                    }
+                });
+                // fancybox insilaze & options //
+                $("[data-fancybox]").fancybox({
+                    loop: true,
+                    hash: true,
+                    transitionEffect: "slide",
+                    /* zoom VS next////////////////////
+                    clickContent - i modify the deafult - now when you click on the image you go to the next image - i more like this approach than zoom on desktop (This idea was in the classic/first lightbox) */
+                    clickContent: function(current, event) {
+                        return current.type === "image" ? "next" : false;
+                    }
+                });
+            </script>
+
+            <!-- JS Links -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+            <!-- Mixitup -->
+            <script src='https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.2.2/mixitup.min.js'></script>
+            <!-- fancybox -->
+            <script src='https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.js'></script>
+            <!-- Fancybox js -->
+
+<!--            </section>-->
+
 
 <!--            <div class="wrap-filter-slider">-->
 <!--                <section class="service-filter-box-wrap">-->
@@ -1421,102 +1717,102 @@
 <!--                </section>-->
 <!--            </div>-->
 
-            <section class="finance-slider">
-                <h2 class="title-font"></h2>
-                <h2 class="title-font">Financial Services Insights</h2>
-
-                <div class="wrap-build-globaly">
-                    <div class="swiper finance-slider-comp">
-                        <div class="swiper-wrapper">
-
-                            <div class="swiper-slide ani-gloabal-slider">
-                                <div class="image-iteam">
-                                    <div class="image-wrap">
-                                        <div class="overlay-pnl"></div>
-                                        <img src="https://placehold.co/450x600/png" alt="insights">
-                                    </div>
-                                    <div class="wrap-hide-panel">
-                                        <div class="bottom-panle">
-                                            <p class="full-txt">Lakdhanavi  Finance poised to fuel economic resurgence in Sri Lanka</p>
-                                        </div>
-                                        <div class="hidden-panle">
-                                            <p class="name"></p>
-                                            <p class="desgnation"></p>
-                                            <blockquote><p>In one of the most historic mergers in Sri Lanka, Lakdhanavi  Finance, the largest NBFI in the country  merged with its sister company, Commercial Leasing &amp;amp; Finance (CLC), to become the largest Non-Banking Financial Institution (NBFI) in Sri Lanka earlier this year.</p></blockquote>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide ani-gloabal-slider">
-                                <div class="image-iteam">
-                                    <div class="image-wrap">
-                                        <div class="overlay-pnl"></div>
-                                        <img src="https://placehold.co/450x600/png" alt="insights">
-                                    </div>
-                                    <div class="wrap-hide-panel">
-                                        <div class="bottom-panle">
-                                            <p class="full-txt">NMI Invests USD 7m In Lakdhanavi  Cambodia, Supporting Financial Services For Low-Income Families</p>
-                                        </div>
-                                        <div class="hidden-panle">
-                                            <p class="name"></p>
-                                            <p class="desgnation"></p>
-                                            <blockquote><p>The USD 7 million subordinated loan is a continuation of Nordic Microfinance Initiative’s (NMI) partnership with Lakdhanavi  Cambodia, having disbursed a senior loan in 2018 which was fully repaid in 2021. The new loan will support the Company in expanding the reach of its financial products to underserved families in rural Cambodia.</p></blockquote>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide ani-gloabal-slider">
-                                <div class="image-iteam">
-                                    <div class="image-wrap">
-                                        <div class="overlay-pnl"></div>
-                                        <img src="https://placehold.co/450x600/png" alt="insights">
-                                    </div>
-                                    <div class="wrap-hide-panel">
-                                        <div class="bottom-panle">
-                                            <p class="full-txt">Pak Oman Microfinance Bank enters into a strategic partnership with NIBAF</p>
-                                        </div>
-                                        <div class="hidden-panle">
-                                            <p class="name"></p>
-                                            <p class="desgnation"></p>
-                                            <blockquote><p>Pak Oman Microfinance Bank enters into a strategic partnership with NIBAF, to facilitate the unprivileged communities of the country by creating financial awareness campaigns.</p></blockquote>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide ani-gloabal-slider">
-                                <div class="image-iteam">
-                                    <div class="image-wrap">
-                                        <div class="overlay-pnl"></div>
-                                        <img src="https://placehold.co/450x600/png" alt="insights">
-                                    </div>
-                                    <div class="wrap-hide-panel">
-                                        <div class="bottom-panle">
-                                            <p class="full-txt">Lakdhanavi  Finance revolutionises the Digital Industry by bagging Five Golds at Technnovation Awards 2022</p>
-                                        </div>
-                                        <div class="hidden-panle">
-                                            <p class="name"></p>
-                                            <p class="desgnation"></p>
-                                            <blockquote><p>Sri Lanka’s premier Non-Banking Financial Institution (NBFI), Lakdhanavi  Finance PLC which is renowned for offering cutting-edge digital financing solutions, proved its expertise yet again in the digital financing sphere, competing with the country’s prestigious banks and NBFIs to gain these top awards.</p></blockquote>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                        </div>
-                        <div class="swiper-button-next wrap-ovel-icon">
-                            <div class="ovel-icon">
-                                <img src="./assets/images/home/right-arrow.png" alt="icon">
-                            </div>
-                        </div>
-                        <div class="swiper-button-prev wrap-ovel-icon">
-                            <div class="ovel-icon">
-                                <img src="./assets/images/home/left-arrow.png" alt="icon">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+<!--            <section class="finance-slider">-->
+<!--                <h2 class="title-font"></h2>-->
+<!--                <h2 class="title-font">Financial Services Insights</h2>-->
+<!---->
+<!--                <div class="wrap-build-globaly">-->
+<!--                    <div class="swiper finance-slider-comp">-->
+<!--                        <div class="swiper-wrapper">-->
+<!---->
+<!--                            <div class="swiper-slide ani-gloabal-slider">-->
+<!--                                <div class="image-iteam">-->
+<!--                                    <div class="image-wrap">-->
+<!--                                        <div class="overlay-pnl"></div>-->
+<!--                                        <img src="https://placehold.co/450x600/png" alt="insights">-->
+<!--                                    </div>-->
+<!--                                    <div class="wrap-hide-panel">-->
+<!--                                        <div class="bottom-panle">-->
+<!--                                            <p class="full-txt">Lakdhanavi  Finance poised to fuel economic resurgence in Sri Lanka</p>-->
+<!--                                        </div>-->
+<!--                                        <div class="hidden-panle">-->
+<!--                                            <p class="name"></p>-->
+<!--                                            <p class="desgnation"></p>-->
+<!--                                            <blockquote><p>In one of the most historic mergers in Sri Lanka, Lakdhanavi  Finance, the largest NBFI in the country  merged with its sister company, Commercial Leasing &amp;amp; Finance (CLC), to become the largest Non-Banking Financial Institution (NBFI) in Sri Lanka earlier this year.</p></blockquote>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="swiper-slide ani-gloabal-slider">-->
+<!--                                <div class="image-iteam">-->
+<!--                                    <div class="image-wrap">-->
+<!--                                        <div class="overlay-pnl"></div>-->
+<!--                                        <img src="https://placehold.co/450x600/png" alt="insights">-->
+<!--                                    </div>-->
+<!--                                    <div class="wrap-hide-panel">-->
+<!--                                        <div class="bottom-panle">-->
+<!--                                            <p class="full-txt">NMI Invests USD 7m In Lakdhanavi  Cambodia, Supporting Financial Services For Low-Income Families</p>-->
+<!--                                        </div>-->
+<!--                                        <div class="hidden-panle">-->
+<!--                                            <p class="name"></p>-->
+<!--                                            <p class="desgnation"></p>-->
+<!--                                            <blockquote><p>The USD 7 million subordinated loan is a continuation of Nordic Microfinance Initiative’s (NMI) partnership with Lakdhanavi  Cambodia, having disbursed a senior loan in 2018 which was fully repaid in 2021. The new loan will support the Company in expanding the reach of its financial products to underserved families in rural Cambodia.</p></blockquote>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="swiper-slide ani-gloabal-slider">-->
+<!--                                <div class="image-iteam">-->
+<!--                                    <div class="image-wrap">-->
+<!--                                        <div class="overlay-pnl"></div>-->
+<!--                                        <img src="https://placehold.co/450x600/png" alt="insights">-->
+<!--                                    </div>-->
+<!--                                    <div class="wrap-hide-panel">-->
+<!--                                        <div class="bottom-panle">-->
+<!--                                            <p class="full-txt">Pak Oman Microfinance Bank enters into a strategic partnership with NIBAF</p>-->
+<!--                                        </div>-->
+<!--                                        <div class="hidden-panle">-->
+<!--                                            <p class="name"></p>-->
+<!--                                            <p class="desgnation"></p>-->
+<!--                                            <blockquote><p>Pak Oman Microfinance Bank enters into a strategic partnership with NIBAF, to facilitate the unprivileged communities of the country by creating financial awareness campaigns.</p></blockquote>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="swiper-slide ani-gloabal-slider">-->
+<!--                                <div class="image-iteam">-->
+<!--                                    <div class="image-wrap">-->
+<!--                                        <div class="overlay-pnl"></div>-->
+<!--                                        <img src="https://placehold.co/450x600/png" alt="insights">-->
+<!--                                    </div>-->
+<!--                                    <div class="wrap-hide-panel">-->
+<!--                                        <div class="bottom-panle">-->
+<!--                                            <p class="full-txt">Lakdhanavi  Finance revolutionises the Digital Industry by bagging Five Golds at Technnovation Awards 2022</p>-->
+<!--                                        </div>-->
+<!--                                        <div class="hidden-panle">-->
+<!--                                            <p class="name"></p>-->
+<!--                                            <p class="desgnation"></p>-->
+<!--                                            <blockquote><p>Sri Lanka’s premier Non-Banking Financial Institution (NBFI), Lakdhanavi  Finance PLC which is renowned for offering cutting-edge digital financing solutions, proved its expertise yet again in the digital financing sphere, competing with the country’s prestigious banks and NBFIs to gain these top awards.</p></blockquote>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!---->
+<!---->
+<!--                        </div>-->
+<!--                        <div class="swiper-button-next wrap-ovel-icon">-->
+<!--                            <div class="ovel-icon">-->
+<!--                                <img src="./assets/images/home/right-arrow.png" alt="icon">-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="swiper-button-prev wrap-ovel-icon">-->
+<!--                            <div class="ovel-icon">-->
+<!--                                <img src="./assets/images/home/left-arrow.png" alt="icon">-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </section>-->
         </div>
     </div>
 
