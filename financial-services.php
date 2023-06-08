@@ -216,24 +216,26 @@
                     <div class="portfolio-menu mt-2 mb-4">
                         <nav class="controls">
                             <button type="button" class="control outline" data-filter="all">All</button>
-                            <button type="button" class="control outline" data-filter=".web">Power Generation</button>
-                            <button type="button" class="control outline" data-filter=".dev">O &amp; M</button>
-                            <button type="button" class="control outline" data-filter=".wp">Diversified</button>
+                            <button type="button" class="control outline" data-filter=".pg">Power Generation</button>
+                            <button type="button" class="control outline" data-filter=".om">O &amp; M</button>
+                            <button type="button" class="control outline" data-filter=".epc">EPC</button>
+                            <button type="button" class="control outline" data-filter=".df">Diversified</button>
                         </nav>
                     </div>
                     <ul class="row portfolio-item">
 
-                        <li class="mix web col-xl-4 col-md-4 col-12 col-sm-6 pd ">
-                            <img src="https://placehold.co/600x400/png" itemprop="thumbnail" alt="Image description" />
+                        <li class="mix pg col-xl-4 col-md-4 col-12 col-sm-6 pd ">
+                            <img src="./assets/images/project/rlpclbd.jpg" class="img-fluid" itemprop="thumbnail" alt="Image description" />
                             <div class="portfolio-overlay">
                                 <div class="overlay-content">
-                                    <p class="category">Project Name</p>
+                                    <p class="category">52.5 MW Raj Lanka Power Company Limited</p>
+                                    </table>
                                     <a href="#" title="View Project" target="_blank">
                                         <div class="magnify-icon">
                                             <p><span><i class="fa fa-link" aria-hidden="true"></i></span></p>
                                         </div>
                                     </a>
-                                    <a data-fancybox="item" title="click to zoom-in" href="https://placehold.co/600x400/png">
+                                    <a data-fancybox="item" title="click to zoom-in" href="./assets/images/project/rlpclbd.jpg">
                                         <div class="magnify-icon">
                                             <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
                                         </div>
@@ -242,17 +244,17 @@
                             </div>
                         </li>
 
-                        <li class="mix dev col-xl-4 col-md-4 col-12 col-sm-6 pd ">
-                            <img src="https://placehold.co/600x400/png" itemprop="thumbnail" alt="Image description" />
+                        <li class="mix epc col-xl-4 col-md-4 col-12 col-sm-6 pd ">
+                            <img src="./assets/images/project/epc-project-1.jpg" class="img-fluid" itemprop="thumbnail" alt="Image description" />
                             <div class="portfolio-overlay">
                                 <div class="overlay-content">
-                                    <p class="category">Project Name</p>
+                                    <p class="category">115 MW Chandpur Power Generations Limited</p>
                                     <a href="#" title="View Project" target="_blank">
                                         <div class="magnify-icon">
                                             <p><span><i class="fa fa-link" aria-hidden="true"></i></span></p>
                                         </div>
                                     </a>
-                                    <a data-fancybox="item" title="click to zoom-in" href="https://placehold.co/600x400/png" data-size="1200x600">
+                                    <a data-fancybox="item" title="click to zoom-in" href="./assets/images/project/epc-project-1.jpg" data-size="1200x600">
                                         <div class="magnify-icon">
                                             <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
                                         </div>
@@ -261,17 +263,17 @@
                             </div>
                         </li>
 
-                        <li class="mix wp col-xl-4 col-md-4 col-12 col-sm-6 pd ">
-                            <img src="https://placehold.co/600x400/png" itemprop="thumbnail" alt="Image description" />
+                        <li class="mix pg col-xl-4 col-md-4 col-12 col-sm-6 pd ">
+                            <img src="./assets/images/project/lbpl.jpg" class="img-fluid" itemprop="thumbnail" alt="Image description" />
                             <div class="portfolio-overlay">
                                 <div class="overlay-content">
-                                    <p class="category">Project Name</p>
+                                    <p class="category">52.2MW Lakdhanavi Bangla Power Ltd.</p>
                                     <a href="#" title="View Project" target="_blank">
                                         <div class="magnify-icon">
                                             <p><span><i class="fa fa-link" aria-hidden="true"></i></span></p>
                                         </div>
                                     </a>
-                                    <a data-fancybox="item" title="click to zoom-in" href="https://placehold.co/600x400/png" data-size="1200x600">
+                                    <a data-fancybox="item" title="click to zoom-in" href="./assets/images/project/lbpl.jpg" data-size="1200x600">
                                         <div class="magnify-icon">
                                             <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
                                         </div>
@@ -280,17 +282,17 @@
                             </div>
                         </li>
 
-                        <li class="mix dev col-xl-4 col-md-4 col-12 col-sm-6 pd ">
-                            <img src="https://placehold.co/600x400/png" itemprop="thumbnail" alt="Image description" />
+                        <li class="mix epc col-xl-4 col-md-4 col-12 col-sm-6 pd ">
+                            <img src="./assets/images/project/epc-project-2.jpg" class="img-fluid" itemprop="thumbnail" alt="Image description" />
                             <div class="portfolio-overlay">
                                 <div class="overlay-content">
-                                    <p class="category">Project Name</p>
+                                    <p class="category">115 MW Chandpur Power Generations Limited</p>
                                     <a href="#" title="View Project" target="_blank">
                                         <div class="magnify-icon">
                                             <p><span><i class="fa fa-link" aria-hidden="true"></i></span></p>
                                         </div>
                                     </a>
-                                    <a data-fancybox="item" title="click to zoom-in" href="https://placehold.co/600x400/png" data-size="1200x600">
+                                    <a data-fancybox="item" title="click to zoom-in" href="./assets/images/project/epc-project-2.jpg" data-size="1200x600">
                                         <div class="magnify-icon">
                                             <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
                                         </div>
@@ -298,17 +300,17 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="mix web col-xl-4 col-md-4 col-12 col-sm-6 pd ">
-                            <img src="https://placehold.co/600x400/png" itemprop="thumbnail" alt="Image description" />
+                        <li class="mix pg col-xl-4 col-md-4 col-12 col-sm-6 pd ">
+                            <img src="./assets/images/project/flak.jpg" class="img-fluid" itemprop="thumbnail" alt="Image description" />
                             <div class="portfolio-overlay">
                                 <div class="overlay-content">
-                                    <p class="category">Project Name</p>
+                                    <p class="category">114MW Feni Lanka Power Ltd.</p>
                                     <a href="#" title="View Project" target="_blank">
                                         <div class="magnify-icon">
                                             <p><span><i class="fa fa-link" aria-hidden="true"></i></span></p>
                                         </div>
                                     </a>
-                                    <a data-fancybox="item" title="click to zoom-in" href="https://placehold.co/600x400/png" data-size="1200x600">
+                                    <a data-fancybox="item" title="click to zoom-in" href="./assets/images/project/flak.jpg" data-size="1200x600">
                                         <div class="magnify-icon">
                                             <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
                                         </div>
@@ -316,128 +318,17 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="mix wp col-xl-4 col-md-4 col-12 col-sm-6 pd ">
-                            <img src="https://placehold.co/600x400/png" itemprop="thumbnail" alt="Image description" />
+                        <li class="mix epc col-xl-4 col-md-4 col-12 col-sm-6 pd ">
+                            <img src="./assets/images/project/epc-project-3.jpg" class="img-fluid" itemprop="thumbnail" alt="Image description" />
                             <div class="portfolio-overlay">
                                 <div class="overlay-content">
-                                    <p class="category">Project Name</p>
+                                    <p class="category">100 MW Thermal Power Plant</p>
                                     <a href="#" title="View Project" target="_blank">
                                         <div class="magnify-icon">
                                             <p><span><i class="fa fa-link" aria-hidden="true"></i></span></p>
                                         </div>
                                     </a>
-                                    <a data-fancybox="item" title="click to zoom-in" href="https://placehold.co/600x400/png" data-size="1200x600">
-                                        <div class="magnify-icon">
-                                            <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="mix dev col-xl-4 col-md-4 col-12 col-sm-6 pd">
-                            <img src="https://placehold.co/600x400/png" itemprop="thumbnail" alt="Image description" />
-                            <div class="portfolio-overlay">
-                                <div class="overlay-content">
-                                    <p class="category">Project Name</p>
-                                    <a href="#" title="View Project" target="_blank">
-                                        <div class="magnify-icon">
-                                            <p><span><i class="fa fa-link" aria-hidden="true"></i></span></p>
-                                        </div>
-                                    </a>
-                                    <a data-fancybox="item" title="click to zoom-in" href="https://placehold.co/600x400/png" data-size="1200x600">
-                                        <div class="magnify-icon">
-                                            <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="mix web col-xl-4 col-md-4 col-12 col-sm-6 pd">
-                            <img src="https://placehold.co/600x400/png" itemprop="thumbnail" alt="Image description" />
-                            <div class="portfolio-overlay">
-                                <div class="overlay-content">
-                                    <p class="category">Project Name</p>
-                                    <a href="#" title="View Project" target="_blank">
-                                        <div class="magnify-icon">
-                                            <p><span><i class="fa fa-link" aria-hidden="true"></i></span></p>
-                                        </div>
-                                    </a>
-                                    <a data-fancybox="item" title="click to zoom-in" href="https://placehold.co/600x400/png" data-size="1200x600">
-                                        <div class="magnify-icon">
-                                            <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="mix wp col-xl-4 col-md-4 col-12 col-sm-6 pd">
-                            <img src="https://placehold.co/600x400/png" itemprop="thumbnail" alt="Image description" />
-                            <div class="portfolio-overlay">
-                                <div class="overlay-content">
-                                    <p class="category">Project Name</p>
-                                    <a href="#" title="View Project" target="_blank">
-                                        <div class="magnify-icon">
-                                            <p><span><i class="fa fa-link" aria-hidden="true"></i></span></p>
-                                        </div>
-                                    </a>
-                                    <a data-fancybox="item" title="click to zoom-in" href="https://placehold.co/600x400/png" data-size="1200x600">
-                                        <div class="magnify-icon">
-                                            <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </li>
-
-                        <li class="mix dev col-xl-4 col-md-4 col-12 col-sm-6 pd">
-                            <img src="https://placehold.co/600x400/png" itemprop="thumbnail" alt="Image description" />
-                            <div class="portfolio-overlay">
-                                <div class="overlay-content">
-                                    <p class="category">Project Name</p>
-                                    <a href="#" title="View Project" target="_blank">
-                                        <div class="magnify-icon">
-                                            <p><span><i class="fa fa-link" aria-hidden="true"></i></span></p>
-                                        </div>
-                                    </a>
-                                    <a data-fancybox="item" title="click to zoom-in" href="https://placehold.co/600x400/png" data-size="1200x600">
-                                        <div class="magnify-icon">
-                                            <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </li>
-
-                        <li class="mix wp col-xl-4 col-md-4 col-12 col-sm-6 pd">
-                            <img src="https://placehold.co/600x400/png" itemprop="thumbnail" alt="Image description" />
-                            <div class="portfolio-overlay">
-                                <div class="overlay-content">
-                                    <p class="category">Project Name</p>
-                                    <a href="#" title="View Project" target="_blank">
-                                        <div class="magnify-icon">
-                                            <p><span><i class="fa fa-link" aria-hidden="true"></i></span></p>
-                                        </div>
-                                    </a>
-                                    <a data-fancybox="item" title="click to zoom-in" href="https://placehold.co/600x400/png" data-size="1200x600">
-                                        <div class="magnify-icon">
-                                            <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </li>
-
-                        <li class="mix web col-xl-4 col-md-4 col-12 col-sm-6 pd">
-                            <img src="https://placehold.co/600x400/png" itemprop="thumbnail" alt="Image description" />
-                            <div class="portfolio-overlay">
-                                <div class="overlay-content">
-                                    <p class="category">Project Name</p>
-                                    <a href="#" title="View Project" target="_blank">
-                                        <div class="magnify-icon">
-                                            <p><span><i class="fa fa-link" aria-hidden="true"></i></span></p>
-                                        </div>
-                                    </a>
-                                    <a data-fancybox="item" title="click to zoom-in" href="https://placehold.co/600x400/png" data-size="1200x600">
+                                    <a data-fancybox="item" title="click to zoom-in" href="./assets/images/project/epc-project-3.jpg" data-size="1200x600">
                                         <div class="magnify-icon">
                                             <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
                                         </div>
@@ -450,30 +341,7 @@
                 </div>
             </section>
 
-            <script>
-                // 1. querySelector
-                var containerEl = document.querySelector(".portfolio-item");
-                // 2. Passing the configuration object inline
-                //https://www.kunkalabs.com/mixitup/docs/configuration-object/
-                var mixer = mixitup(containerEl, {
-                    animation: {
-                        effects: "fade translateZ(-100px)",
-                        effectsIn: "fade translateY(-100%)",
-                        easing: "cubic-bezier(0.645, 0.045, 0.355, 1)"
-                    }
-                });
-                // fancybox insilaze & options //
-                $("[data-fancybox]").fancybox({
-                    loop: true,
-                    hash: true,
-                    transitionEffect: "slide",
-                    /* zoom VS next////////////////////
-                    clickContent - i modify the deafult - now when you click on the image you go to the next image - i more like this approach than zoom on desktop (This idea was in the classic/first lightbox) */
-                    clickContent: function(current, event) {
-                        return current.type === "image" ? "next" : false;
-                    }
-                });
-            </script>
+
 
             <!-- JS Links -->
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
