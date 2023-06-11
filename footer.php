@@ -145,7 +145,19 @@
         <div class="row">
             <div class="col-4 p-0">
                 <div class="left-side">
-
+                    <h4>Bangladesh Subsidiaries</h4>
+                    <div class="sis-concern">
+                        <a href="#">Raj Lanka Power Company Limited</a>
+                        <a href="#">Lakdhanavi Bangla Power Limited</a>
+                        <a href="#">Feni Lanka Power Limited</a>
+                    </div>
+                    <div class="social">
+                        <span><a href="#"><i class="fa fa-facebook fa-2x"></i></a></span>
+                        <span><a href="#"><i class="fa fa-twitter fa-2x"></i></a></span>
+                        <span><a href="#"><i class="fa fa-instagram fa-2x"></i></a></span>
+                        <span><a href="#"><i class="fa fa-linkedin fa-2x"></i></a></span>
+                        <span><a href="#"><i class="fa fa-youtube fa-2x"></i></a></span>
+                    </div>
                 </div>
 
             </div>

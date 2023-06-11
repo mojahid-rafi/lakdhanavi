@@ -113,7 +113,7 @@ body {
     overflow-x: hidden;
 }
 ul {
-    /*list-style: none;*/
+    list-style: none;
 }
 li>ul, li>ol {
     margin-bottom: 0;
@@ -514,7 +514,7 @@ p {
     padding-right: 0;
 }
 .sticky-navigation .container--v ul li a {
-    font-family: "aven-medium";
+    font-family: Assistant;
     font-size: 1rem;
     color: #000;
     padding-left: 15px;
@@ -872,7 +872,7 @@ p {
     padding: 27px;
 }
 .wrap-build-globaly .swiper-slide .image-iteam .wrap-hide-panel .hidden-panle .name {
-    /*font-family: "aven-medium";*/
+    /*font-family: Assistant;*/
     font-family: Rubik;
     font-size: 1rem;
     color: #fff;
@@ -884,7 +884,7 @@ p {
         font-size: 14px;
     }
 }.wrap-build-globaly .swiper-slide .image-iteam .wrap-hide-panel .hidden-panle .desgnation {
-     /*font-family: "aven-medium";*/
+     /*font-family: Assistant;*/
      font-family: Rubik;
      font-size: 12px;
      color: #fff;
@@ -931,6 +931,7 @@ p {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     margin-bottom: 33px;
+    list-style-type: none;
 }
 .breadcrumb-new li {
     font-family: "Rubik";
@@ -942,7 +943,7 @@ p {
     color: #7b7e8b;
 }
 .breadcrumb-new li.active-page a {
-    font-family: "Rubik";
+    font-family: Assistant;
     font-size: .875rem;
     color: #2F3975;
 }
@@ -1036,7 +1037,7 @@ p {
     margin-bottom: 4px;
 }
 .modal .modal-dialog .modal-body .model-content-sec .table-data-wrap .table-data-item .tb p {
-    font-family: "aven-medium";
+    font-family: Assistant;
     font-size: .875rem;
     color: #000;
 }
@@ -1105,7 +1106,7 @@ p {
 }.common-finance-banner .sector-banner-details .wrap-sector-contnet {
      max-width: 100%}
 .common-finance-banner .sub-texts {
-    font-family: "aven-medium";
+    font-family: Assistant;
     font-size: 1rem;
     line-height: 20.9px;
     letter-spacing: -0.2px;
@@ -1596,7 +1597,7 @@ p {
         margin-bottom: 20px;
     }
 }.global-presence .wrap-gloab-sec .gloab-title-sec h1 {
-     font-family: "aven-medium";
+     font-family: Assistant;
      font-size: 3.125rem;
      color: #222;
      letter-spacing: -1.79px;
@@ -1705,7 +1706,7 @@ p {
     -o-transition: .3s ease-out;
     transition: .3s ease-out;
     border: 0;
-    font-family: "aven-medium";
+    font-family: Assistant;
     font-size: .875rem;
     color: #000;
     letter-spacing: -0.5px;
@@ -2149,7 +2150,7 @@ p {
 .group-member .top-panel .disp-image .disp-over-panel p {
     width: 100%;
     max-width: 364px;
-    font-family: "aven-medium";
+    font-family: Assistant;
     font-size: 1.5rem;
     color: #fff;
     letter-spacing: -0.86px;
@@ -2464,7 +2465,7 @@ p {
     z-index: 99;
 }
 .group-member .bt-panel .lf-section .massage-sec .message h3 {
-    font-family: "aven-medium";
+    font-family: Assistant;
     font-size: 1.5rem;
     color: #fff;
     letter-spacing: -0.86px;
@@ -2651,7 +2652,7 @@ p {
     color: #f00 !important;
 }
 .anual-report-sec .anual-report .ab-report .anual-content p {
-    font-family: "aven-medium";
+    font-family: Assistant;
     font-size: .875rem;
     color: #000;
     letter-spacing: -0.5px;
@@ -2719,7 +2720,7 @@ p {
      margin-bottom: 50px;
  }
 .anual-report-sec .company-group .wrap-company-group .company-group-contnet h3 {
-    font-family: "aven-medium";
+    font-family: Assistant;
     font-size: 1.5rem;
     color: #fff;
     letter-spacing: -0.86px;
@@ -2727,7 +2728,7 @@ p {
     margin-bottom: 20px;
 }
 .anual-report-sec .company-group .wrap-company-group .company-group-contnet p {
-    font-family: "aven-medium";
+    font-family: Assistant;
     font-size: .9375rem;
     color: #fff;
     letter-spacing: -0.51px;
@@ -3119,7 +3120,7 @@ p {
      min-height: 42px;
  }
 .lolc-twitter-wrap .lolc-twitter .twitter-sec .twitter-grid .twitter-iteam .twitter-footer p {
-    /*font-family: "aven-medium";*/
+    /*font-family: Assistant;*/
     font-family: Assistant;
     font-size: 12px;
     color: #fff;
@@ -3188,7 +3189,7 @@ p {
 }.subslinks .inner-section-link h4 {
      width: 100%;
      max-width: 138px;
-     font-family: "aven-medium";
+     font-family: Assistant;
      font-size: .875rem;
      color: #fff;
  }
@@ -3197,7 +3198,7 @@ p {
         font-size: 12px;
     }
 }.subslinks .inner-section-link:hover {
-     background-color: #0f4187;
+     background-color: rgba(1, 57, 137, 1);
  }
 .subslinks .inner-section-link:hover img {
     -webkit-animation: flip-icon .5s ease-in-out;
@@ -3291,7 +3292,7 @@ p {
      align-items: flex-start;
  }
 .wrap-banner-and-statistics .statistics li:nth-child(odd) {
-    background-color: #2F3975;
+    background-color: rgba(1, 57, 137, 1);
 }
 .wrap-banner-and-statistics .statistics li:nth-child(odd) .head-title h3 {
     color: #fff;
@@ -3332,7 +3333,7 @@ p {
     margin-right: 8px;
 }
 .wrap-banner-and-statistics .statistics li .head-title h3 {
-    font-family: "aven-heavy";
+    font-family: Assistant;
     font-size: 2.375rem;
     letter-spacing: -1.3px;
 }
@@ -3404,8 +3405,8 @@ p {
     margin-bottom: 23px;
 }
 .sector-banner-details .wrap-sector-contnet .secotr-txt {
-    font-family: "aven-medium";
-    font-size: 1.375rem;
+    font-family: Assistant;
+    font-size: 16px;
     color: #000;
     letter-spacing: .49px;
 }
@@ -3415,7 +3416,7 @@ p {
         line-height: 24px;
     }
 }.sector-banner-details .wrap-sector-contnet .sub-texts {
-     font-family: "aven-medium";
+     font-family: Assistant;
      font-size: .875rem;
      color: #000;
      line-height: 21px;
@@ -3425,7 +3426,7 @@ p {
         font-size: 12px;
     }
 }.sector-banner-details .wrap-sector-contnet .small-text {
-     font-family: "aven-medium";
+     font-family: Assistant;
      font-size: .875rem;
      color: #000;
      line-height: 21px;
@@ -3484,7 +3485,7 @@ p {
     overflow: hidden;
 }
 .list-fetures li p {
-    font-family: "aven-medium";
+    font-family: Assistant;
     font-size: 1.125rem;
     color: #000;
     line-height: 20px;
@@ -3540,7 +3541,7 @@ p {
 }
 .mixitup-control-active {
     color: #fff;
-    background: #f89f32;
+    background: #f1b209;
 }
 .fancybox-container button:focus {
     outline: 0;
@@ -3852,7 +3853,7 @@ p {
      pointer-events: none;
  }
 .wrap-filter-slider-sec .filter-slider-sec .logo-slide-and-controller .control {
-    background-color: #2561b5;
+    background-color: rgba(1, 57, 137, 1);
     width: 100%;
     height: 100%;
     display: -webkit-box;
@@ -3962,13 +3963,13 @@ p {
         padding: 20px;
     }
 }.wrap-filter-slider-sec .filter-slider-sec .finance-filter-content-slider-wrap .sector-sld-wrap .filter-content-sec h3 {
-     font-family: "aven-medium";
+     font-family: Assistant;
      font-size: 1.25rem;
      color: #000;
      margin-bottom: 10px;
  }
 .wrap-filter-slider-sec .filter-slider-sec .finance-filter-content-slider-wrap .sector-sld-wrap .filter-content-sec p {
-    font-family: "aven-medium";
+    font-family: Assistant;
     font-size: .875rem;
     color: #000;
     line-height: 20px;
@@ -4070,7 +4071,7 @@ p {
         display: inline-block;
     }
 }.wrap-filter-slider-sec .filter-slider-sec .finance-filter-content-slider-wrap .sector-sld-wrap .filter-content-sec .anual-report-links .anual-repot-link p {
-     font-family: "aven-medium";
+     font-family: Assistant;
      font-size: 1rem;
      color: #000;
      text-align: center;
@@ -4337,7 +4338,7 @@ p {
         display: none;
     }
 }.country-side-panel ul li .wrap-country .contry-flag-name span {
-     font-family: "aven-medium";
+     font-family: Assistant;
      font-size: .875rem;
      color: #fff;
  }
@@ -4447,14 +4448,14 @@ p {
      margin-bottom: 16px;
  }
 .gloabal-p .cambodia-gray-content .cambodia-middle-panel .cambodia-content-sec .cambodia-content-sec-wrap .cambodia-content h4 {
-    font-family: "aven-medium";
+    font-family: Assistant;
     font-size: 1.75rem;
     color: #000;
     letter-spacing: .49px;
     margin-bottom: 27px;
 }
 .gloabal-p .cambodia-gray-content .cambodia-middle-panel .cambodia-content-sec .cambodia-content-sec-wrap .cambodia-content p {
-    font-family: "aven-medium";
+    font-family: Assistant;
     font-size: 1.375rem;
     color: #000;
     letter-spacing: .49px;
@@ -4647,7 +4648,7 @@ p {
     margin-right: 0;
 }
 .invester-p .invester-slider-wrap .wrap-invest-slide-box h4 {
-    font-family: "aven-medium";
+    font-family: Assistant;
     font-size: 1rem;
     color: #000;
     text-align: center;
@@ -4736,14 +4737,14 @@ p {
     max-width: 299px;
 }
 .invester-p .pdf-contact-sec .pdf-contact-sec-wrap .contact-person .contact-person-add-tel p {
-    font-family: "aven-medium";
+    font-family: Assistant;
     font-size: 1.125rem;
     color: #fff;
     line-height: 30.7px;
     letter-spacing: -0.86px;
 }
 .invester-p .pdf-contact-sec .pdf-contact-sec-wrap .contact-person .contact-person-add-tel p a {
-    font-family: "aven-medium";
+    font-family: Assistant;
     font-size: 1.125rem;
     color: #fff;
     line-height: 30.7px;
@@ -4805,7 +4806,7 @@ p {
      justify-content: center;
  }
 .invester-p .LOLC-debenture-pdf .LOLC-debenture-pdf-wrap h3 {
-    font-family: "aven-medium";
+    font-family: Assistant;
     font-size: 1.875rem;
     color: #fff;
     letter-spacing: -1.79px;
@@ -4864,7 +4865,7 @@ p {
     transition: .3s ease-out;
 }
 .invester-p .LOLC-debenture-pdf .LOLC-debenture-pdf-wrap .pdf-wrap .pdf-iteam h5 {
-    font-family: "aven-medium";
+    font-family: Assistant;
     font-size: 1rem;
     color: #000;
 }
@@ -4890,7 +4891,7 @@ p {
     width: 50%;
     padding: 30px 50px;
     background-color: #2F3975;
-    font-family: "aven-medium";
+    font-family: Assistant;
     font-size: 1.5rem;
     color: #fff;
     line-height: 30.8px;
@@ -4948,7 +4949,7 @@ p {
     font-size: 1rem;
     color: #000;
     margin-top: 13px;
-    font-family: "aven-medium";
+    font-family: Assistant;
     background: #fff;
 }
 .agriculture-p .sector-banner-details {
@@ -5097,7 +5098,7 @@ p {
         margin-top: 0;
     }
 }.about-p .vid-content .vid-content-wrap p {
-     font-family: "aven-medium";
+     font-family: Assistant;
      font-size: .875rem;
      color: #000;
      line-height: 20.9px;
@@ -5134,7 +5135,7 @@ p {
         flex-direction: column-reverse;
     }
 }.about-p .history-grid .hist-title {
-     font-family: "aven-medium";
+     font-family: Assistant;
      font-size: 1.5rem;
      color: #fff;
      line-height: 30.8px;
@@ -5142,7 +5143,7 @@ p {
      margin-bottom: 20px;
  }
 .about-p .history-grid .hist-para {
-    font-family: "aven-medium";
+    font-family: Assistant;
     font-size: .9375rem;
     color: #fff;
     line-height: 21px;
@@ -5333,7 +5334,7 @@ p {
         padding-right: 20px;
     }
 }.history-p .history-content p {
-     font-family: "aven-medium";
+     font-family: Assistant;
      font-size: .875rem;
      color: #000;
      line-height: 20.9px;
@@ -5392,7 +5393,7 @@ p {
         padding-top: 25px;
     }
 }.directors-p .group-members .wrap-group-member .wrap-group-member-containe .gp-content-tab-wrap .title-txt {
-     font-family: "aven-medium";
+     font-family: Assistant;
      font-size: 1.375rem;
      color: #000;
      letter-spacing: .49px;
@@ -5402,7 +5403,7 @@ p {
     padding-bottom: 25px;
 }
 .directors-p .group-members .wrap-group-member .wrap-group-member-containe .gp-content-tab-wrap .content p {
-    font-family: "aven-medium";
+    font-family: Assistant;
     font-size: .875rem;
     color: #000;
     line-height: 20.9px;
@@ -5551,7 +5552,7 @@ p {
     margin-bottom: 2px;
 }
 .directors-p .group-members .wrap-group-member .wrap-group-member-containe .gp-image-sec .gp-image .gp-image-wrap .member-name p {
-    font-family: "aven-medium";
+    font-family: Assistant;
     font-size: .8125rem;
     color: #fff;
     line-height: 17.2px;
@@ -5762,7 +5763,7 @@ p {
     transition: .5s ease-out;
 }
 .awards-p .our-awards .wrap-our-awards .award-item .award-title p {
-    font-family: "aven-medium";
+    font-family: Assistant;
     font-size: 1rem;
     color: #fff;
     line-height: 21px;
@@ -5898,7 +5899,7 @@ p {
     float: left;
     width: 100%}
 .milestone-p .milestones-section .milestone-thumb-wrap .year-itm span {
-    font-family: "aven-medium";
+    font-family: Assistant;
     font-size: 1.5rem;
     color: #fff;
     letter-spacing: 3px;
@@ -5979,7 +5980,7 @@ p {
     background-color: #2F3975;
 }
 .milestone-p .milestone-content .mil-content-wrap .mil-content h2 {
-    font-family: "aven-medium";
+    font-family: Assistant;
     font-size: 3.125rem;
     color: #222;
     letter-spacing: 4px;
@@ -6000,7 +6001,7 @@ p {
     margin-top: 5px;
 }
 .milestone-p .milestone-content .mil-content-wrap .mil-content ul li p {
-    font-family: "aven-medium";
+    font-family: Assistant;
     font-size: 1.125rem;
     color: #000;
     line-height: 23px;
@@ -6226,7 +6227,7 @@ p {
     transform: translate(-50%, -50%) rotate(180deg);
 }
 .news-details-p .news-details-wrap .news-details-title-and-slider .news-banner-title h2 {
-    font-family: "aven-medium";
+    font-family: Assistant;
     font-size: 3.125rem;
     color: #222;
     letter-spacing: -1.79px;
@@ -6701,7 +6702,7 @@ p {
     align-items: center;
 }
 .media-p .mediaLists .mediaLists-wrap .vid-item .vid-item-title-bar h4 {
-    font-family: "aven-medium";
+    font-family: Assistant;
     font-size: 1.125rem;
     color: #fff;
     letter-spacing: -0.5px;
@@ -6742,7 +6743,7 @@ p {
     margin-bottom: 25px;
 }
 .contact-us-p .sector-banner-details .address p {
-    font-family: "aven-medium";
+    font-family: Assistant;
     font-size: 1.375rem;
     color: #000;
     line-height: 33px;
@@ -6763,13 +6764,13 @@ p {
     width: 70px;
 }
 .contact-us-p .sector-banner-details .tel li .tel-name span {
-    font-family: "aven-medium";
+    font-family: Assistant;
     font-size: 1.375rem;
     color: #2F3975;
     letter-spacing: .49px;
 }
 .contact-us-p .sector-banner-details .tel li a {
-    font-family: "aven-medium";
+    font-family: Assistant;
     font-size: 1.375rem;
     color: #000;
     letter-spacing: .49px;
@@ -6828,7 +6829,7 @@ p {
         padding-right: 30px;
     }
 }.contact-us-p .map-contact-section .contact-sec h4 {
-     font-family: "aven-medium";
+     font-family: Assistant;
      font-size: 1.75rem;
      color: #fff;
      margin-bottom: 43px;
@@ -6845,34 +6846,34 @@ p {
 .contact-us-p .map-contact-section .contact-sec form .input-text {
     width: 100%;
     height: 48px;
-    font-family: "aven-medium";
+    font-family: Assistant;
     font-size: 1rem;
     color: #717187;
     padding-left: 27px;
     margin-bottom: 12px;
 }
 .contact-us-p .map-contact-section .contact-sec form .input-text::-webkit-input-placeholder {
-    font-family: "aven-medium";
+    font-family: Assistant;
     font-size: 1rem;
     color: #717187;
 }
 .contact-us-p .map-contact-section .contact-sec form .input-text::-moz-placeholder {
-    font-family: "aven-medium";
+    font-family: Assistant;
     font-size: 1rem;
     color: #717187;
 }
 .contact-us-p .map-contact-section .contact-sec form .input-text:-ms-input-placeholder {
-    font-family: "aven-medium";
+    font-family: Assistant;
     font-size: 1rem;
     color: #717187;
 }
 .contact-us-p .map-contact-section .contact-sec form .input-text::-ms-input-placeholder {
-    font-family: "aven-medium";
+    font-family: Assistant;
     font-size: 1rem;
     color: #717187;
 }
 .contact-us-p .map-contact-section .contact-sec form .input-text::placeholder {
-    font-family: "aven-medium";
+    font-family: Assistant;
     font-size: 1rem;
     color: #717187;
 }
@@ -6885,33 +6886,33 @@ p {
 .contact-us-p .map-contact-section .contact-sec form textarea {
     padding-top: 11px;
     padding-left: 27px;
-    font-family: "aven-medium";
+    font-family: Assistant;
     font-size: 1rem;
     color: #717187;
     margin-bottom: 12px;
 }
 .contact-us-p .map-contact-section .contact-sec form textarea::-webkit-input-placeholder {
-    font-family: "aven-medium";
+    font-family: Assistant;
     font-size: 1rem;
     color: #717187;
 }
 .contact-us-p .map-contact-section .contact-sec form textarea::-moz-placeholder {
-    font-family: "aven-medium";
+    font-family: Assistant;
     font-size: 1rem;
     color: #717187;
 }
 .contact-us-p .map-contact-section .contact-sec form textarea:-ms-input-placeholder {
-    font-family: "aven-medium";
+    font-family: Assistant;
     font-size: 1rem;
     color: #717187;
 }
 .contact-us-p .map-contact-section .contact-sec form textarea::-ms-input-placeholder {
-    font-family: "aven-medium";
+    font-family: Assistant;
     font-size: 1rem;
     color: #717187;
 }
 .contact-us-p .map-contact-section .contact-sec form textarea::placeholder {
-    font-family: "aven-medium";
+    font-family: Assistant;
     font-size: 1rem;
     color: #717187;
 }
@@ -6975,7 +6976,7 @@ p {
         padding-right: 20px;
     }
 }.com-and-en-p .com-and-en-wrap .com-and-en-item .com-and-en-content h3 {
-     font-family: "aven-medium";
+     font-family: Assistant;
      font-size: 1.75rem;
      color: #000;
      margin-bottom: 16px;
@@ -6983,7 +6984,7 @@ p {
      max-width: 566px;
  }
 .com-and-en-p .com-and-en-wrap .com-and-en-item .com-and-en-content p {
-    font-family: "aven-medium";
+    font-family: Assistant;
     font-size: 1rem;
     color: #000;
     line-height: 26px;
@@ -7231,7 +7232,7 @@ p {
     justify-content: flex-start;
 }
 .lolc-green-project-p .wrap-green-projects .green-p-item .project-title-bar p {
-    font-family: "aven-medium";
+    font-family: Assistant;
     font-size: 1.125rem;
     color: #fff;
     line-height: 21px;
@@ -7370,7 +7371,7 @@ footer .wrap-footer .mob-phone-fax .ph ul li a, footer .wrap-footer .phone-fax .
         font-size: 12px;
     }
 }footer .wrap-footer .mob-phone-fax .ph ul li span, footer .wrap-footer .phone-fax .ph ul li span {
-     font-family: "aven-medium";
+     font-family: Assistant;
      font-size: 13px;
      color: red;
      line-height: 23.25px;
@@ -7646,8 +7647,7 @@ footer .ft-bottom-wrap {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding: 5px 0px;
     position: relative;
 }
 @media(max-width:480px) {
@@ -7677,14 +7677,15 @@ footer .ft-bottom-wrap {
      background-color: rgba(199, 207, 219, 0.81);
  }
 footer .ft-bottom-wrap .copyright {
-    font-family: "aven-heavy";
-    font-size: 13px;
+    font-family: Assistant;
+    font-size: 14px;
     color: #2F3975;
     line-height: 23.25px;
+    font-weight: bold;
 }
 footer .ft-bottom-wrap .desing-dev {
-    font-family: "AvenirBook";
-    font-size: 11px;
+    font-family: Assistant;
+    font-size: 13px;
     color: #000;
     line-height: 23.25px;
 }
@@ -7740,8 +7741,39 @@ footer .f-country-s span {
     -webkit-background-size: cover;
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: rgba(1, 57, 137, 0.8) -28rem 0px 0px inset;
+    box-shadow: rgba(1, 57, 137, 0.8) -32rem 0px 0px inset;
     height: 400px;
+}
+.left-side h4{
+    color: #fff;
+    padding: 46px 0px 20px 60px;
+    font-weight: bold;
+    font-family: Assistant;
+}
+.social{
+    Padding: 30px 0px 20px 60px;
+}
+.social a{
+    color: #f1b209;
+    margin-right: 10px;
+    margin-right: 25px;
+}
+.social a:hover{
+    color: #ffff;
+}
+.sis-concern
+{
+    padding: 0px 0px 20px 60px;
+}
+.sis-concern a{
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    padding: 8px 0px 5px 0px;
+    font-family: Assistant;
+}
+.sis-concern a:hover{
+    color: #f1b209;
 }
 .right-side
 {
@@ -7803,8 +7835,8 @@ footer .f-country-s span {
 #button {
     display: inline-block;
     background-color: #FF9800;
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
     text-align: center;
     border-radius: 4px;
     position: fixed;
@@ -7822,7 +7854,7 @@ footer .f-country-s span {
     font-weight: normal;
     font-style: normal;
     font-size: 2em;
-    line-height: 50px;
+    line-height: 100px;
     color: #fff;
 }
 #button:hover {
