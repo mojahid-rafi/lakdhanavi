@@ -167,10 +167,10 @@
                                         <a href="/">Home</a>
                                     </li>
                                     <li class="active-page">
-                                        <a href="./financial-services.php">Financial Services</a>
+                                        <a href="core-business.php">Financial Services</a>
                                     </li>
                                 </ul>
-                                <h2 class="title-font">Financial Services</h2>
+                                <h2 class="title-font">Core Busines</h2>
                             </div>
                             <p class="secotr-txt">Driven by an unwavering focus on our customers’ success, Lakdhanavi  is rapidly expanding its footprint in across the globe, building a secure future for underserved communities through market-based solutions. Lakdhanavi  is making a difference in the MSME landscape by deploying best practices in customer protection, customer experience, risk management, and the application of digital technology. By building the economic strength of individuals, Lakdhanavi  seeks to propel the GDP growth of its host countries- a mission that ensures our MSME platform stands out in the global financial services industry.</p>
 

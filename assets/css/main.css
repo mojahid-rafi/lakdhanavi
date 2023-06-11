@@ -7746,7 +7746,7 @@ footer .f-country-s span {
 }
 .left-side h4{
     color: #fff;
-    padding: 46px 0px 20px 60px;
+    padding: 57px 0px 20px 60px;
     font-weight: bold;
     font-family: Assistant;
 }
@@ -7763,7 +7763,9 @@ footer .f-country-s span {
 }
 .sis-concern
 {
-    padding: 0px 0px 20px 60px;
+    font-family: Assistant;
+    padding: 0px 120px 20px 60px;
+    color: #fff;
 }
 .sis-concern a{
     display: block;
@@ -7781,16 +7783,20 @@ footer .f-country-s span {
     height: 400px;
 }
 .menu-title {
-    padding: 40px 0px 20px 60px;
+    padding: 50px 0px 20px 40px;
     color: #fff;
     font-family: Assistant;
     font-weight: 700;
     font-size: 1.5625rem;
 }
+.cs-pd
+{
+    padding-left: 64px;
+}
 .right-side ul{
     color: #f1b209;
     list-style-type: square;
-    padding: 0px 0px 20px 70px;
+    padding: 0px 0px 20px 56px;
 }
 .info
 {

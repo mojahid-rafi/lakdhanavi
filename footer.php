@@ -145,11 +145,9 @@
         <div class="row">
             <div class="col-4 p-0">
                 <div class="left-side">
-                    <h4>Bangladesh Subsidiaries</h4>
+                    <h4></h4>
                     <div class="sis-concern">
-                        <a href="#">Raj Lanka Power Company Limited</a>
-                        <a href="#">Lakdhanavi Bangla Power Limited</a>
-                        <a href="#">Feni Lanka Power Limited</a>
+                        <p>Our goal is to offer broad capabilities, competitive pricing, exceptional quality and outstanding service to each and every customer.</p>
                     </div>
                     <div class="social">
                         <span><a href="#"><i class="fa fa-facebook fa-2x"></i></a></span>
@@ -167,20 +165,19 @@
                         <div class="col-4">
                             <div class="footer-services">
                                 <div class="menu-title">
-                                    <span>Our Services</span>
+                                    <span>Bangladesh Subsidiaries</span>
                                 </div>
 
                                 <ul>
-                                    <li><a href="#">Power Generation</a></li>
-                                    <li><a href="#">O &amp; M</a></li>
-                                    <li><a href="#">EPC</a></li>
-                                    <li><a href="#">Diversified</a></li>
+                                    <li><a href="#">Raj Lanka Power Company Limited</a></li>
+                                    <li><a href="#">Lakdhanavi Bangla Power Limited</a></li>
+                                    <li><a href="#">Feni Lanka Power Limited</a></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="col-4">
                             <div class="footer-services">
-                                <div class="menu-title">
+                                <div class="menu-title cs-pd">
                                     <span>Contact us</span>
                                 </div>
 
@@ -209,7 +206,7 @@
                         </div>
                         <div class="col-4">
                             <div class="footer-services">
-                                <div class="menu-title">
+                                <div class="menu-title cs-pd">
                                     <span>About</span>
                                 </div>
 
