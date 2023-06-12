@@ -84,7 +84,7 @@
 
                         <img src="./assets/images/logo/ltl-grid-logo.png" class="lolc-hov-icon" alt="icon">
                     </div>
-                    <h4>Financial Services</h4>
+                    <h4>Financial Statement</h4>
                 </a>
 
                 <a href="#" class="grid-sec" style="opacity: 1; background: transparent;">
@@ -97,7 +97,7 @@
 
                         <img src="./assets/images/logo/ltl-grid-logo.png" class="lolc-hov-icon" alt="icon">
                     </div>
-                    <h4>Leisure</h4>
+                    <h4>CSR</h4>
                 </a>
 
                 <a href="#" class="grid-sec"
@@ -112,7 +112,7 @@
 
                         <img src="./assets/images/logo/ltl-grid-logo.png" class="lolc-hov-icon" alt="icon">
                     </div>
-                    <h4>Agriculture &amp; Plantations</h4>
+                    <h4>Power Generation</h4>
                 </a>
 
                 <a href="#" class="grid-sec"
@@ -127,7 +127,7 @@
 
                         <img src="./assets/images/logo/ltl-grid-logo.png" class="lolc-hov-icon" alt="icon">
                     </div>
-                    <h4>Manufacturing &amp; Trading</h4>
+                    <h4>Operation &amp; Maintanance</h4>
                 </a>
 
                 <a href="#" class="grid-sec"
@@ -142,7 +142,7 @@
 
                         <img src="./assets/images/logo/ltl-grid-logo.png" class="lolc-hov-icon" alt="icon">
                     </div>
-                    <h4>Digital Empowerment</h4>
+                    <h4>Diversified</h4>
                 </a>
 
                 <a href="#" class="grid-sec"
@@ -594,7 +594,7 @@
                             </div>
                         </div>
                         <div class="grp-btn active-tab-btn" data-id="director" data-img="director-img">
-                            <p class="name">Director's Message</p>
+                            <p class="name">Country Director's Message</p>
                             <div class="wrap-ovel-icon">
                                 <div class="ovel-icon">
                                     <img src="./assets/images/home/right-arrow.png" alt="icon">
@@ -642,7 +642,7 @@
                     </div>
                     <div class="massage-sec content active" id="director">
                         <div class="message">
-                            <h3>Director's Message</h3>
+                            <h3>Country Director's Message</h3>
                             <blockquote>
                                 "Over the last four decades, we have grown from a stand-alone leasing company to a
                                 sprawling multi-sector business group that touches millions of lives every day.
@@ -651,9 +651,9 @@
                                 and economic growth."
                             </blockquote>
                             <div class="name-details">
-                                <h4>Mr. U Gamini Sarath</h4>
-                                <p>Director</p>
-                                <p>Lakdhanavi Ltd. Group </p>
+                                <h4>Mr.  U Gamini Sarath</h4>
+                                <p>Country Director</p>
+                                <p>Lakdhanavi Limited </p>
                             </div>
                         </div>
                         <img src="./assets/images/home/message-ovel.png" alt="icon" class="message-ovel">

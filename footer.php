@@ -150,11 +150,11 @@
                         <p>Our goal is to offer broad capabilities, competitive pricing, exceptional quality and outstanding service to each and every customer.</p>
                     </div>
                     <div class="social">
-                        <span><a href="#"><i class="fa fa-facebook fa-2x"></i></a></span>
+                        <span><a href="https://www.facebook.com/pages/Lakdhanavi-Limited/102337508476460"><i class="fa fa-facebook fa-2x"></i></a></span>
                         <span><a href="#"><i class="fa fa-twitter fa-2x"></i></a></span>
                         <span><a href="#"><i class="fa fa-instagram fa-2x"></i></a></span>
-                        <span><a href="#"><i class="fa fa-linkedin fa-2x"></i></a></span>
-                        <span><a href="#"><i class="fa fa-youtube fa-2x"></i></a></span>
+                        <span><a href="https://www.linkedin.com/company/lakdhanavi-limited/"><i class="fa fa-linkedin fa-2x"></i></a></span>
+                        <span><a href="https://www.youtube.com/@ltlholdings3691"><i class="fa fa-youtube fa-2x"></i></a></span>
                     </div>
                 </div>
 

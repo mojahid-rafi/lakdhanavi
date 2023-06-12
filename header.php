@@ -43,7 +43,7 @@
                         <div class="follow-us">
                             <ul>
                                 <li>
-                                    <a href="#" target="_blank">
+                                    <a href="https://www.facebook.com/pages/Lakdhanavi-Limited/102337508476460" target="_blank">
                                         <img src="./assets/images/utilities/fb.png" alt="social-media-icon-fb">
                                     </a>
                                 </li>
@@ -54,19 +54,19 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" target="_blank">
+                                    <a href="https://www.youtube.com/@ltlholdings3691/about" target="_blank">
                                         <img src="./assets/images/utilities/youtube.png"
                                              alt="social-media-icon-youtube">
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" target="_blank">
+                                    <a href="javascript:void(0)" target="_blank">
                                         <img src="./assets/images/utilities/twitter.png"
                                              alt="social-media-icon-twitter">
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" target="_blank">
+                                    <a href="https://www.linkedin.com/company/lakdhanavi-limited/" target="_blank">
                                         <img src="./assets/images/utilities/linkedin.png"
                                              alt="social-media-icon-linkd-in">
                                     </a>
