@@ -48,7 +48,7 @@
                         <div class="row">
                             <div class="col-12">
                                 <h4>Get in Touch with Us</h4>
-                                <p class="text-white">We would love to work with you</p>
+                                <p>We would love to work with you</p>
                             </div>
                             <div class="col-3">
                                 <div class="contact-box">
@@ -131,6 +131,16 @@
                             </div>
                         </div>
                     </div>
+
+                    <section class="map-section mt-4">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-12 p-0">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116855.5447490558!2d90.39380479999998!3d23.756800000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c76ddb900001%3A0x4e93f7965851af73!2sLakdhanavi%20Bangla%20Power%20Limited!5e0!3m2!1sen!2sbd!4v1686808731054!5m2!1sen!2sbd" width="100%" height="480px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
 
 
                     <div class="container">
