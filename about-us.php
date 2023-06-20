@@ -13,20 +13,10 @@
         <aside id="sidePanel" class="country-side-panel about-side-panel" data-scroll data-scroll-sticky data-scroll-target="#panel-pin">
             <ul class="country-link-wrap">
 
-                <li class="<?php if(isset($_GET["country"]) && $_GET["country"] == "Singapore") { echo "active-count-list"; }?> country-slidepanel-list">
-                    <a href="./global.php?country=Singapore" class="wrap-country">
+                <li class="<?php if(isset($_GET["team"]) && $_GET["team"] == "cp") { echo "active-count-list"; }?> country-slidepanel-list">
+                    <a href="./our-team.php?team=cp" class="wrap-country">
                         <div class="contry-flag-name">
-                            <img src="./assets/images/flag/singapore.jpg" alt="country-flag">
-                            <span>Singapore</span>
-                        </div>
-                    </a>
-                </li>
-
-                <li class="<?php if(isset($_GET["country"]) && $_GET["country"] == "Bangladesh") { echo "active-count-list"; }?> country-slidepanel-list">
-                    <a href="./global.php?country=Bangladesh" class="wrap-country">
-                        <div class="contry-flag-name">
-                            <img src="./assets/images/flag/bangladesh.jpg" alt="country-flag">
-                            <span>Bangladesh</span>
+                            <span>Corporate Profile</span>
                         </div>
 
                         <svg width="12" height="11" class="arrow" viewBox="0 0 12 11" fill="none"
@@ -38,11 +28,10 @@
                     </a>
                 </li>
 
-                <li class="<?php if(isset($_GET["country"]) && $_GET["country"] == "Nepal") { echo "active-count-list"; }?> country-slidepanel-list">
-                    <a href="./global.php?country=Nepal" class="wrap-country">
+                <li class="<?php if(isset($_GET["team"]) && $_GET["team"] == "bod") { echo "active-count-list"; }?> country-slidepanel-list">
+                    <a href="./our-team.php?team=bod" class="wrap-country">
                         <div class="contry-flag-name">
-                            <img src="./assets/images/flag/nepal.jpg" alt="country-flag">
-                            <span>Nepal</span>
+                            <span>Board of Directors</span>
                         </div>
 
                         <svg width="12" height="11" class="arrow" viewBox="0 0 12 11" fill="none"
@@ -54,11 +43,10 @@
                     </a>
                 </li>
 
-                <li class="<?php if(isset($_GET["country"]) && $_GET["country"] == "India") { echo "active-count-list"; }?> country-slidepanel-list">
-                    <a href="./global.php?country=India" class="wrap-country">
+                <li class="<?php if(isset($_GET["team"]) && $_GET["team"] == "mt") { echo "active-count-list"; }?> country-slidepanel-list">
+                    <a href="./our-team.php?team=mt" class="wrap-country">
                         <div class="contry-flag-name">
-                            <img src="./assets/images/flag/india.jpg" alt="country-flag">
-                            <span>India</span>
+                            <span>Management Team</span>
                         </div>
 
                         <svg width="12" height="11" class="arrow" viewBox="0 0 12 11" fill="none"
@@ -70,21 +58,6 @@
                     </a>
                 </li>
 
-                <li class="<?php if(isset($_GET["country"]) && $_GET["country"] == "Sri Lanka") { echo "active-count-list"; }?> country-slidepanel-list">
-                    <a href="./global.php?country=Sri Lanka" class="wrap-country">
-                        <div class="contry-flag-name">
-                            <img src="./assets/images/flag/srilanka.jpg" alt="country-flag">
-                            <span>Sri Lanka</span>
-                        </div>
-
-                        <svg width="12" height="11" class="arrow" viewBox="0 0 12 11" fill="none"
-                             xmlns="http://www.w3.org/2000/svg">
-                            <path d="M6.57115 0.883654L10.6875 5L6.50701 9.18049" stroke-width="1.125" />
-                            <path d="M10.625 5.06201L0.574968 5.15765" stroke-width="1.125" />
-                        </svg>
-
-                    </a>
-                </li>
             </ul>
         </aside>
 
@@ -112,12 +85,50 @@
 
             <div class="video-and-overview">
                 <div class="youtube-video">
-                    <iframe src="https://placehold.co/1025x565/png" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0"></iframe>
+<!--                    <iframe src="https://placehold.co/1025x565/png" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0"></iframe>-->
+                    <iframe width="1025" height="565" src="https://www.youtube.com/embed/tZ42TK8pGYw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
                 <div class="vid-content">
                     <div class="container--v">
                         <div class="vid-content-wrap">
-                            <p></p><p>A formidable global conglomerate, Lakdhanavi Holdings has strategically diversified into key economic growth sectors across financial services, leisure, agriculture and plantations, construction and real estate, manufacturing and trading, technology, research and innovation and strategic investments.</p><p>The Lakdhanavi Group is on an accelerated growth trajectory and is inspired by the quest to nurture and shape the future of individuals and communities across the world. As a leading player in the International MSME sector, the Lakdhanavi Group has been a catalyst in facilitating, whilst striving to maximise environmental benefits through green financing, promoting financial independence for women and uplifting customers from poverty through financial inclusion in global markets.</p><p>In keeping with its alignment to UN Sustainable Development Goals, Lakdhanavi is a catalyst of economic development as a responsible lender while maintaining strong client protection principles. Transforming communities in the South and South East Asian markets, the Lakdhanavi Group has made giant strides to entrench its footprint across Africa and Central Asia. The Group has already built its reputation as one of the largest multi-currency, multi-geography inclusive finance platform in the world, backed by advanced tech platforms designed by its fully-owned subsidiary companies which have now been successfully adopted across borders.</p><p>Present in the continents of Asia and Africa, the Lakdhanavi Group with a presence in Singapore, Sri Lanka, Cambodia, Myanmar, Indonesia, Philippines, Pakistan, Zambia, Zimbabwe, Nigeria, Tanzania, Malawi, Egypt, Kenya, Ghana, Sierra Leone, Tajikistan, Kyrgyzstan, Maldives, Mauritius, Australia and UAE with further strategic expansion plans held in pipelines. Over the years, the Group has been backed strongly by Development Finance Institutions and multilateral funding lines, which reflects the confidence these global entities place in the Group’s sustainable operations. Sustainability is embedded in the Group’s ethos and embodied in its transparent, fair, equitable and beneficial products and services that are uplifting the lives and livelihoods of millions across the globe, giving them hope for a brighter tomorrow.</p><p></p>
+                            <p></p><p class="text-justify">
+                                Lakdhanavi Ltd., a subsidiary of LTL Holdings Sri Lanka, was
+                                incorporated in 1996 and is the first and largest Independent Power
+                                Producer (IPP) within the power sector of Sri Lanka.
+                                <br><br>
+                                Lakdhanavi Ltd., is a dynamic player in the manufacturing,
+                                construction and service industry which spans the electrical,
+                                mechanical and civil engineering fields and is renowned as one of
+                                the leading Engineering, Procurement and Construction (EPC)
+                                contractor and operator of major power projects, including IPP
+                                Power Generating Stations within Sri Lanka, Bangladesh, Male,
+                                Oman, Kenya and Nepal.
+
+                                <br><br>
+                                Lakdhanavi Ltd., operates three HFO Fired power plants with a
+                                total installed capacity of 218.4MW in Bangladesh which sell net
+                                energy output to the Bangladesh Power Development Board
+                                (BPDB).
+
+                                <br><br>
+
+                                Three separate Special Purpose Vehicle (SPV) companies namely
+                                Raj Lanka Power Company Limited (RLPCL), Lakdhanavi
+                                Bangla Power Limited (LBPL) and Feni Lank Power Limited
+                                (FLPL) are setup to operate these plants under Build, Own and
+                                Operate (BOO) basis.
+
+                                <br> <br>
+
+                                Lakdhanavi Ltd., has secured a IPP based 350MW Combine
+                                Cycle Power Plant in Sri Lanka. In addition to the above Lakdhanavi Ltd., is pursuing a Solar power project of 100MW in
+                                Bangladesh as a part of its expansion into the renewable sector.
+                                Therefore, considering projects it has lined up for the expansion,
+                                Lakdhanavi Ltd.’s board/management has decided to raise part of
+                                its equity by divesting full or parts of its stake in IPP based power
+                                projects operated in Bangladesh.
+
+                            </p><p></p>
                         </div>
                     </div>
                 </div>
@@ -128,7 +139,7 @@
                     <div class="history">
                         <div class="history-wrap">
                             <h4 class="hist-title">History</h4>
-                            <p class="hist-para">Decades ago, a company with a very good eye for the future and a broader vision, opened its doors to provide what was then Sri Lanka’s pioneer portfolio of leasing solutions to an eager market. This company was Lanka ORIX Leasing Company (Lakdhanavi). From the onset, Lakdhanavi’s prowess within the financial services sphere helped the Company identify a lacuna in the industry - the lack of financial solutions reaching grassroot level entrepreneurs and individuals. As its business unfolded and evolved, Lakdhanavi by means of a carefully tailored portfolio of products and services, financially empowered the masses and the SME sector to such an extent that they reached whole new levels of financial stability and well-being.
+                            <p class="hist-para">Lanka Transformers Ltd was set up as a joint venture between Ceylon Electricity Board and Bonar Long of Scotland in 1980. The sole objective of setting up of the company was to have the technology of transformer manufacture be available to CEB within the country and thereby have a high quality, locally manufactured transformer for the electricity distribution system of Sri Lanka with reliable supply and after sales service. In 1982 CEB invested Rs. 8.5 M to acquire 70% stake of the new company.
                             </p><div>
                             </div><div><br></div><p></p>
                         </div>
@@ -142,8 +153,7 @@
                         </div>
                         <div class="Group">
                             <a href="#" class="link">
-                                <h4 class="hist-title">Group Structure</h4>
-
+                                <h4 class="hist-title">Management Team</h4>
                                 <img src="./assets/images/utilities/about-black-icon.png" alt="icon">
                             </a>
                         </div>

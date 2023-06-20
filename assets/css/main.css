@@ -4281,8 +4281,9 @@ p {
  .about-side-panel
  {
      position: fixed;
-     top: 30%;
+     top: 50%;
      z-index: 9999999;
+     font-weight: bold;
  }
 @media(max-width:1024px) {
     .country-side-panel {
@@ -5096,7 +5097,7 @@ p {
 }.about-p .vid-content .vid-content-wrap {
      width: 40%;
      margin-left: auto;
-     margin-top: 97px;
+     margin-top: 10px;
  }
 @media(max-width:1024px) {
     .about-p .vid-content .vid-content-wrap {
