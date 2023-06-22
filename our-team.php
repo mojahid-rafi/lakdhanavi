@@ -94,7 +94,7 @@
                                     <h1 class="team-title">Senior Management and Corporate Management Team of LTLH Group</h1>
                                 </section>
                                 <div class="leadership">
-                                    <div class="leader">
+                                    <div class="leader" <?php if(isset($_GET["team"]) && $_GET["team"] == "mt") { echo "hidden"; }?>>
                                         <div class="leader__img">
                                             <img src="./assets/images/board-of-director/jayawardana_chairman.jpg" alt="Amanda Maynard">
                                         </div>
@@ -104,7 +104,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="leader">
+                                    <div class="leader" <?php if(isset($_GET["team"]) && $_GET["team"] == "mt") { echo "hidden"; }?>>
                                         <div class="leader__img">
                                             <img src="./assets/images/board-of-director/marikkar_chief_executive_officer.jpg" alt="Sammy Cotillard">
                                         </div>
@@ -114,7 +114,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="leader">
+                                    <div class="leader" <?php if(isset($_GET["team"]) && $_GET["team"] == "mt") { echo "hidden"; }?>>
                                         <div class="leader__img">
                                             <img src="./assets/images/board-of-director/gamini_sarath.jpg" alt="Todd Fletcher">
                                         </div>
@@ -124,7 +124,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="leader">
+                                    <div class="leader" <?php if(isset($_GET["team"]) && $_GET["team"] == "mt") { echo "hidden"; }?>>
                                         <div class="leader__img">
                                             <img src="./assets/images/board-of-director/arangala_w.jpg" alt="Tiffany Edwards">
                                         </div>
@@ -134,7 +134,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="leader">
+                                    <div class="leader" <?php if(isset($_GET["team"]) && $_GET["team"] == "mt") { echo "hidden"; }?>>
                                         <div class="leader__img">
                                             <img src="./assets/images/board-of-director/pitigalage_update_photo.jpg" alt="Chelsea Clayton">
                                         </div>
@@ -144,7 +144,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="leader">
+                                    <div class="leader" <?php if(isset($_GET["team"]) && $_GET["team"] == "mt") { echo "hidden"; }?>>
                                         <div class="leader__img">
                                             <img src="./assets/images/board-of-director/nanayakka_w.jpg" alt="Kevin McCallister">
                                         </div>
@@ -154,7 +154,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="leader mng-team">
+                                    <div class="leader mng-team" <?php if(isset($_GET["team"]) && $_GET["team"] == "bod") { echo "hidden"; }?>>
                                         <div class="leader__img">
                                             <img src="./assets/images/management-team/gamini_sarath.jpg" alt="Amanda Maynard">
                                         </div>
@@ -164,7 +164,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="leader mng-team">
+                                    <div class="leader mng-team" <?php if(isset($_GET["team"]) && $_GET["team"] == "bod") { echo "hidden"; }?> >
                                         <div class="leader__img">
                                             <img src="./assets/images/management-team/thamaka_thimbiripola.JPG" alt="Sammy Cotillard">
                                         </div>
@@ -174,7 +174,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="leader mng-team">
+                                    <div class="leader mng-team" <?php if(isset($_GET["team"]) && $_GET["team"] == "bod") { echo "hidden"; }?> >
                                         <div class="leader__img">
                                             <img src="./assets/images/management-team/mr_sumon.JPG" alt="Todd Fletcher">
                                         </div>

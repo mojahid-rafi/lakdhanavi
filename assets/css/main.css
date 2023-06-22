@@ -4284,7 +4284,7 @@ p {
      top: 50%;
      z-index: 9999999;
      font-weight: bold;
- }
+ }.about-p .sector-banner-details
 @media(max-width:1024px) {
     .country-side-panel {
         display: none;
@@ -5116,7 +5116,8 @@ p {
     margin-bottom: 0;
 }
 .about-p .sector-banner-details {
-    margin-top: -250px;
+    margin-top: -370px;
+    margin-bottom: 120px;
 }
 @media(max-width:1024px) {
     .about-p .sector-banner-details {
