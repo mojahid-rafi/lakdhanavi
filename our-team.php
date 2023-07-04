@@ -76,12 +76,45 @@
                                     </li>
                                 </ul>
 
-                                <h2 class="title-font">Board Of Directors</h2>
+                                <h2 class="title-font">
+                                    <?php
+                                        if(isset($_GET["team"]) && $_GET["team"] == "bod")
+                                        {
+                                            echo "Board Of Directors";
+                                        }
+                                        elseif (isset($_GET["team"]) && $_GET["team"] == "mt")
+                                        {
+                                            echo "Management Team";
+                                        }
+                                        elseif (isset($_GET["team"]) && $_GET["team"] == "cp")
+                                        {
+                                            echo "Corporate Profile";
+                                        }
+                                    ?>
+                                </h2>
                             </div>
 
-                            <p class="sub-texts"> No Director or a person nominated to become a Director of the Company has been involved in any of the following:
+                            <p class="sub-texts">
+                                <?php
+                                if(isset($_GET["team"]) && $_GET["team"] == "bod")
+                                {
+                                    echo "
+                                        No Director or a person nominated to become a Director of the Company has been involved in any of the following:
                                 • A petition under any bankruptcy laws filed against such person or any partnership in which he/she was a partner or any corporation of which he was an executive officer; or
-                                • Conviction for fraud, misappropriation or breach of trust or any other similar offence which the CSE considers a disqualification.</p>
+                                • Conviction for fraud, misappropriation or breach of trust or any other similar offence which the CSE considers a disqualification.
+                                    ";
+                                }
+                                elseif (isset($_GET["team"]) && $_GET["team"] == "mt")
+                                {
+                                    echo "";
+                                }
+                                elseif (isset($_GET["team"]) && $_GET["team"] == "cp")
+                                {
+                                    echo "Lakdhanavi is the largest independent power producer within the power sector of Sri Lanka and can lay claim to a host of other impressive achievements. A subsidiary of the prestigious LTL Holdings, Lakdhanavi is a dynamic player in the manufacturing, construction and service industry which spans the electrical, mechanical and civil engineering fields in Sri Lanka. The company is renowned as the Engineering, Procurement and Construction contractors (EPC) of major power projects, including Independent Power Producer (IPP) Power Generating Stations and Emergency Power Station";
+                                }
+                                ?>
+
+                                </p>
 
                         </div>
                     </div>
@@ -91,9 +124,25 @@
 
                             <div class="team-wrap">
                                 <section class="team">
-                                    <h1 class="team-title">Senior Management and Corporate Management Team of LTLH Group</h1>
+                                    <h1 class="team-title">
+                                        <?php
+                                        if(isset($_GET["team"]) && $_GET["team"] == "bod")
+                                        {
+                                            echo "Board of Director of LTLH Group";
+                                        }
+                                        elseif (isset($_GET["team"]) && $_GET["team"] == "mt")
+                                        {
+                                            echo "Management Team of Lakdhanavi Ltd., Bangladesh Branch";
+                                        }
+                                        elseif (isset($_GET["team"]) && $_GET["team"] == "cp")
+                                        {
+                                            echo "Corporate Profile of Lakdhanavi Ltd., Bangladesh Branch";
+                                        }
+                                        ?>
+                                    </h1>
                                 </section>
-                                <div class="leadership">
+
+                                <div class="leadership" <?php if(isset($_GET["team"]) && $_GET["team"] == "cp") { echo "hidden"; }?>>
                                     <div class="leader" <?php if(isset($_GET["team"]) && $_GET["team"] == "mt") { echo "hidden"; }?>>
                                         <div class="leader__img">
                                             <img src="./assets/images/board-of-director/jayawardana_chairman.jpg" alt="Amanda Maynard">
@@ -159,7 +208,7 @@
                                             <img src="./assets/images/management-team/gamini_sarath.jpg" alt="Amanda Maynard">
                                         </div>
                                         <div class="leader__name">
-                                            <h2>Mr. U Gamini Sarath Latest Photo</h2>
+                                            <h2>Mr. U Gamini Sarath</h2>
                                             <p><em>Country Director</em></p>
                                         </div>
                                     </div>
@@ -179,19 +228,20 @@
                                             <img src="./assets/images/management-team/mr_sumon.JPG" alt="Todd Fletcher">
                                         </div>
                                         <div class="leader__name">
-                                            <h2>Mohammad Sumon</h2>
+                                            <h2>Mr. Mohammad Sumon</h2>
                                             <p><em>Head Of Finance</em></p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                     </div>
-
-
                 </div>
             </section>
+
+
+
+
         </div>
     </div>
 

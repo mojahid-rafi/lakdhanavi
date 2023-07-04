@@ -269,9 +269,9 @@
 </script>
 
     <script>
-        // var siteBaseUrl = "localhost";
+        var siteBaseUrl = "localhost";
 
-        var siteBaseUrl = "https://www.lolc.com";
+        // var siteBaseUrl = "https://www.lolc.com";
 
     </script>
 

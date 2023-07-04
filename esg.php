@@ -194,8 +194,8 @@
 <!--                            </div>-->
 <!--                            <div class="com-and-en-image">-->
 <!--                                <img class="com-and-en-backImg" src="https://placehold.co/540x400/png" alt="logo">-->
-<!---->
-<!--                                <!-- <a href="http://www.lolc.com/lolc-care" class="group-link">-->
+
+<!--                                 <a href="http://www.lolc.com/lolc-care" class="group-link">-->
 <!--                                    <span>LOLC Care</span>-->
 <!--                                    <div class="wrap-ovel-icon">-->
 <!--                                        <div class="ovel-icon">-->

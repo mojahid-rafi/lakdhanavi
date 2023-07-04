@@ -146,13 +146,13 @@
                     </div>
                     <div class="bord-sec-wrap">
                         <div class="board">
-                            <a href="#" class="link">
+                            <a href="./our-team.php?team=bod" class="link">
                                 <h4 class="hist-title">Board of Directors</h4>
                                 <img src="./assets/images/utilities/about-wh-icon.png" alt="icon">
                             </a>
                         </div>
                         <div class="Group">
-                            <a href="#" class="link">
+                            <a href="./our-team.php?team=mt" class="link">
                                 <h4 class="hist-title">Management Team</h4>
                                 <img src="./assets/images/utilities/about-black-icon.png" alt="icon">
                             </a>

@@ -124,13 +124,16 @@
 
                 </div>
             </div>
+            <picture>
+                <img src="./assets/images/page-banner/gas-tower.jpg" class="secotr-banner-img" alt="sector-banner" style="transform: translate(0px);">
+            </picture>
             <!-- <video autoplay muted loop class="sector-vid"> -->
-            <video  class="secotr-banner-img" autoplay muted loop poster="">
+<!--            <video  class="secotr-banner-img" autoplay muted loop poster="">-->
 
-                <source src="./assets/video/lakdhanavi.mp4" type="video/mp4" class="sector-vid">
+<!--                <source src="./assets/video/lakdhanavi.mp4" type="video/mp4" class="sector-vid">-->
 <!--                <source src="https://www.lolc.com/storage/125/Financial-Sector.WebM" type="video/WebM" class="sector-vid">-->
 <!--                <source src="https://www.lolc.com/storage/85/lolcVid.ogv" type="video/ogv" class="sector-vid">-->
-            </video>
+<!--            </video>-->
 
 
         </section>
@@ -205,23 +208,36 @@
                 </div>
             </div>
 
+            <section>
+                <div class="row m-4">
+                    <div class="container">
+                        <h2 class="title-font">
+                            Our <span>Project</span>
+                        </h2>
+                    </div>
+                </div>
+                <div class="portfolio-menu mt-2 mb-4">
+                    <nav class="controls">
+                        <a href="javascript:void(0)" class="control outline" data-filter="all">All</a>
+                        <a href="javascript:void(0)" class="control outline" data-filter=".pg">Power Generation</a>
+                        <a href="javascript:void(0)" class="control outline" data-filter=".om">O &amp; M</a>
+                        <a href="javascript:void(0)" class="control outline" data-filter=".epc">EPC</a>
+                        <a href="javascript:void(0)" class="control outline" data-filter=".df">Diversified</a>
+
+
+<!--                        <button type="button" class="control outline" data-filter="all">All</button>-->
+<!--                        <button type="button" class="control outline" data-filter=".pg">Power Generation</button>-->
+<!--                        <button type="button" class="control outline" data-filter=".om">O &amp; M</button>-->
+<!--                        <button type="button" class="control outline" data-filter=".epc">EPC</button>-->
+<!--                        <button type="button" class="control outline" data-filter=".df">Diversified</button>-->
+                    </nav>
+                </div>
+            </section>
+
 
             <section class="portfolio-section" id="portfolio">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-12 text-center">
-                            <h2>Our Project</h2>
-                        </div>
-                    </div>
-                    <div class="portfolio-menu mt-2 mb-4">
-                        <nav class="controls">
-                            <button type="button" class="control outline" data-filter="all">All</button>
-                            <button type="button" class="control outline" data-filter=".pg">Power Generation</button>
-                            <button type="button" class="control outline" data-filter=".om">O &amp; M</button>
-                            <button type="button" class="control outline" data-filter=".epc">EPC</button>
-                            <button type="button" class="control outline" data-filter=".df">Diversified</button>
-                        </nav>
-                    </div>
+                <div class="container-fluid m-0">
+
                     <ul class="row portfolio-item">
 
                         <li class="mix pg col-xl-4 col-md-4 col-12 col-sm-6 pd ">
@@ -229,7 +245,6 @@
                             <div class="portfolio-overlay">
                                 <div class="overlay-content">
                                     <p class="category">52.5 MW Raj Lanka Power Company Limited</p>
-                                    </table>
                                     <a href="#" title="View Project" target="_blank">
                                         <div class="magnify-icon">
                                             <p><span><i class="fa fa-link" aria-hidden="true"></i></span></p>

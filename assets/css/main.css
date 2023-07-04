@@ -3510,7 +3510,7 @@ p {
 /*Core Business SideBar*/
 
 .portfolio-section {
-    padding: 50px 0;
+    /*padding: 10px 0;*/
     /*background-color: #000;*/
 }
 .portfolio-section h2 {
@@ -3522,33 +3522,37 @@ p {
 .portfolio-menu {
     text-align: center;
 }
-.control {
-    background: #2F3975;
+.controls {
+    background-color: rgb(1, 57, 137);
+    border: none;
+    padding: 19px 40px;
+}
+.controls a {
+    background: rgb(1, 57, 137);
     color: #fff;
-    padding: 5px 10px;
-    border: 1px solid #2F3975;
-    border-radius: 3px;
-    margin: 5px;
+    padding: 20px 40px;
+    border: none;
     cursor: pointer;
     -webkit-transition: all 05s ease;
     -moz-transition: all 05s ease;
     -ms-transition: all 05s ease;
     -o-transition: all 05s ease;
     transition: all 0.5s ease;
+    border-right: 1px solid #fff;
 }
-.control:hover {
-    background: #f89f32;
+.controls a:hover {
+    background: red;
 }
 .mixitup-control-active {
-    color: #fff;
-    background: #f1b209;
+    color: #fff !important;
+    background: red !important;;
 }
 .fancybox-container button:focus {
     outline: 0;
     box-shadow: none;
 }
 .portfolio-item {
-    padding-top: 30px;
+    /*padding-top: 30px;*/
 }
 .pd {
     padding: 0;
@@ -3645,6 +3649,37 @@ p {
     cursor: pointer;
 }
 
+
+/*Corporate Profile*/
+
+.crp-profile .card-header{
+    background: #013989;
+    color: #fff;
+    font-family: Assistant;
+}
+.crp-profile .card-body{
+    font-family: Assistant;
+}
+.client-img
+{
+    text-align: center;
+}
+.client-img img {
+    width: 60%;
+    padding: 20px;
+}
+.com-name
+{
+    text-align: center;
+    font-family: Assistant;
+}
+.card-deck .bank-logo{
+    text-align: center;
+}
+.card-deck img
+{
+    width: 40%;
+}
 
 /*Core Business SideBar*/
 
@@ -4367,6 +4402,13 @@ p {
 .gloabal-p .cambodia-gray-content .container--v {
     padding-left: 0;
     padding-right: 0;
+}
+.cambodia-content-sec-wrap
+{
+    background-image: url("../images/page-banner/powerplant.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    z-index: 99999;
 }
 .gloabal-p .cambodia-gray-content .cambodia-middle-panel {
     width: 100%}
