@@ -239,7 +239,177 @@
                 </div>
             </section>
 
+            <section class="crp-profile mb-lg-5"  <?php if(isset($_GET["team"]) && $_GET["team"] == "bod" || $_GET["team"] == "mt") { echo "hidden"; }?>>
+                <div class="container--v">
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="info">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h6 class="">Corporate Office</h6>
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="title-txt text-dark text-center">
+                                            Arzed Chamber, 13 Mohakhali C/A,
+                                            3rd floor, Dhaka-1212, Bangladesh
+                                            Phone: +88 02 58815581,
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="info">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h6 class="">Legal Status</h6>
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="title-txt text-dark text-center">
+                                            Lakdhanavi Limited was incorporated on 04 July 2017 in Bangladesh as a public limited liability company under the Companies Act 1994.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="info">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h6 class="">Auditor</h6>
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="title-txt text-dark text-center">
+                                            ACNABIN
+                                            Chartered Accountants, BDBL Bhaban (Level – 13 & 14)
+                                            12, Kawran Bazar Commercial Area
+                                            Dhaka – 1215, Bangladesh.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="info">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h6 class="">Company Secretary</h6>
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="title-txt text-dark text-center">
+                                            B&M Legal
+                                            Advocates and Barristers
+                                            37/A, Sahara Centre, 11th floor, Kakrail, Dhaka.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
+                    <div class="row">
+                        <div class="offset-2 col-8">
+                            <h2 class="title-font text-center mt-4 mb-3">
+                                <span>Our Clients are Everything</span>
+                            </h2>
+                            <p class="sub-texts text-center">Every project is effectively an investment in our company. Our goal is to exceed your expectations.</p>
+                        </div>
+                    </div>
+                    <div class="row mt-4 mb-lg-5">
+                        <div class="offset-1 col-2">
+                            <div class="client-img">
+                                <img src="./assets/images/clients/bpdb.png" alt="">
+                            </div>
+                            <div class="com-name">
+                                <p>Bangladesh Power Development Board</p>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="client-img">
+                                <img src="./assets/images/clients/orion_group.png" alt="">
+                            </div>
+                            <div class="com-name">
+                                <p>Orion Group</p>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="client-img">
+                                <img src="./assets/images/clients/xindex.png" alt="">
+                            </div>
+                            <div class="com-name">
+                                <p>Index Group</p>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="client-img">
+                                <img src="./assets/images/clients/acorn.png" alt="">
+                            </div>
+                            <div class="com-name">
+                                <p>Acorn Insfrastructure Services</p>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="client-img">
+                                <img src="./assets/images/clients/doreen.jpg" alt="">
+                            </div>
+                            <div class="com-name">
+                                <p>Doreen Power</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="offset-2 col-8 mt-lg-5 mb-3">
+                        <h2 class="title-font text-center">
+                            <span>Bankers</span>
+                        </h2>
+                    </div>
+
+                    <div class="row">
+                        <div class="offset-1 col-10">
+                            <div class="card-deck">
+                                <div class="card">
+                                    <div class="bank-logo">
+                                        <img class="card-img-top" src="./assets/images/bank/city-bank.jpg">
+                                    </div>
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">The City Bank Limited</h5>
+                                        <p class="card-text">
+                                            Head Office, City Bank Centre
+                                            136, Gulshan Avenue
+                                            Gulshan-2, Dhaka 1212
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="bank-logo">
+                                        <img class="card-img-top" src="./assets/images/bank/ebl.jpg">
+                                    </div>
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">Eastern Bank Limited</h5>
+                                        <p class="card-text">
+                                            100 Gulshan Avenue
+                                            Dhaka, Bangladesh
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="bank-logo">
+                                        <img class="card-img-top" src="./assets/images/bank/com-bank.jpg">
+                                    </div>
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">Commercial Bank of Ceylon PLC</h5>
+                                        <p class="card-text">
+                                            Hadi Mansion, 2 Dilkusha C/A,
+                                            Motijheel, Dhaka-1000
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
 
         </div>
