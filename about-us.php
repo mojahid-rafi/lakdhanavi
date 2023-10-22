@@ -4,85 +4,29 @@
 
 <div class="invester-p about-p">
     <div class="wrap-web">
-        <section class="sectors-banner" data-scroll-section="">
-            <picture>
-                <img src="./assets/images/page-banner/reception.jpg" class="secotr-banner-img" alt="sector-banner" style="transform: translate(0px);">
-            </picture>
-        </section>
-
-        <aside id="sidePanel" class="country-side-panel about-side-panel" data-scroll data-scroll-sticky data-scroll-target="#panel-pin">
-            <ul class="country-link-wrap">
-
-                <li class="<?php if(isset($_GET["team"]) && $_GET["team"] == "cp") { echo "active-count-list"; }?> country-slidepanel-list">
-                    <a href="./our-team.php?team=cp" class="wrap-country">
-                        <div class="contry-flag-name">
-                            <span>Corporate Profile</span>
+        <section class="sectors-banner page about-us">
+            <div class="container--v text-white">
+                <div class="row">
+                    <div class="offset-3 col-6">
+                        <div class="page-name">
+                            <h2>Core Business</h2>
                         </div>
-
-                        <svg width="12" height="11" class="arrow" viewBox="0 0 12 11" fill="none"
-                             xmlns="http://www.w3.org/2000/svg">
-                            <path d="M6.57115 0.883654L10.6875 5L6.50701 9.18049" stroke-width="1.125" />
-                            <path d="M10.625 5.06201L0.574968 5.15765" stroke-width="1.125" />
-                        </svg>
-
-                    </a>
-                </li>
-
-                <li class="<?php if(isset($_GET["team"]) && $_GET["team"] == "bod") { echo "active-count-list"; }?> country-slidepanel-list">
-                    <a href="./our-team.php?team=bod" class="wrap-country">
-                        <div class="contry-flag-name">
-                            <span>Board of Directors</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="offset-3 col-6">
+                        <div class="breadcrumbs">
+                            <span>Home / About us</span>
                         </div>
-
-                        <svg width="12" height="11" class="arrow" viewBox="0 0 12 11" fill="none"
-                             xmlns="http://www.w3.org/2000/svg">
-                            <path d="M6.57115 0.883654L10.6875 5L6.50701 9.18049" stroke-width="1.125" />
-                            <path d="M10.625 5.06201L0.574968 5.15765" stroke-width="1.125" />
-                        </svg>
-
-                    </a>
-                </li>
-
-                <li class="<?php if(isset($_GET["team"]) && $_GET["team"] == "mt") { echo "active-count-list"; }?> country-slidepanel-list">
-                    <a href="./our-team.php?team=mt" class="wrap-country">
-                        <div class="contry-flag-name">
-                            <span>Management Team</span>
-                        </div>
-
-                        <svg width="12" height="11" class="arrow" viewBox="0 0 12 11" fill="none"
-                             xmlns="http://www.w3.org/2000/svg">
-                            <path d="M6.57115 0.883654L10.6875 5L6.50701 9.18049" stroke-width="1.125" />
-                            <path d="M10.625 5.06201L0.574968 5.15765" stroke-width="1.125" />
-                        </svg>
-
-                    </a>
-                </li>
-
-            </ul>
-        </aside>
-
-
-        <section class="wrap-sector-banner-contnet" data-scroll-section="">
-            <div class="container--v">
-                <div class="sector-banner-details ani-prop" style="opacity: 1;">
-                    <div class="wrap-sector-contnet">
-                        <div class="wrap-title-sec">
-                            <ul class="breadcrumb-new">
-                                <li>
-                                    <a href="/">Home</a>
-                                </li>
-                                <li class="active-page">
-                                    <a href="./about-us.php">About us</a>
-                                </li>
-                            </ul>
-
-                            <h2 class="title-font">About us</h2>
-                        </div>
-
                     </div>
                 </div>
             </div>
+        </section>
 
+<!--        aside menu-->
+
+
+        <section class="wrap-sector-banner-contnet" data-scroll-section="">
             <div class="video-and-overview">
                 <div class="youtube-video">
 <!--                    <iframe src="https://placehold.co/1025x565/png" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0"></iframe>-->

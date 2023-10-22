@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1366 100" style="enable-background:new 0 0 1366 100;" xml:space="preserve">
+<style type="text/css">
+	.st0{filter:url(#Adobe_OpacityMaskFilter);}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+	.st2{mask:url(#mask-2_1_);}
+	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#F1B209;}
+	.st4{fill-rule:evenodd;clip-rule:evenodd;fill:url(#path-4_2_);}
+	.st5{fill:none;}
+</style>
+<g id="Component-_x2F_-Divider-_x2F_-Top">
+	<g id="Top-Divider">
+		<g id="Mask">
+		</g>
+		<defs>
+			<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="-152.3" y="26.7" width="2400.1" height="97.3">
+				<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+			</filter>
+		</defs>
+		<mask maskUnits="userSpaceOnUse" x="-152.3" y="26.7" width="2400.1" height="97.3" id="mask-2_1_">
+			<g class="st0">
+				<rect id="path-1_1_" y="14.4" class="st1" width="1366" height="71.1"/>
+			</g>
+		</mask>
+		<g id="Group-4" class="st2">
+			<g transform="translate(-214.000000, 18.000000)">
+				<path id="Path-10-Copy" class="st3" d="M470.2,28.8c114.7-4.8,188.6-0.4,380.8,24.3s297.1,26.4,587.6,4.5s418.1-22.7,650.6-15.4
+					c221.5,4.3,292,23.9,369.5,51.4s-1370.7,0.4-1370.7,0.4s-238-5-714-14.9C361.7,48.8,393.8,32,470.2,28.8z"/>
+				<g id="Path-10">
+					<g>
+						<path id="path-4" class="st1" d="M199.4,11c85.2-4.8,140.1-0.4,282.9,24.3s220.7,26.4,436.5,4.5s310.6-22.7,483.3-15.4
+							c164.5,4.3,216.9,23.9,274.5,51.4c57.6,27.5-1018.2,0.4-1018.2,0.4s-176.8-5-530.4-14.9C118.8,31,142.6,14.2,199.4,11z"/>
+					</g>
+					<g>
+						
+							<linearGradient id="path-4_2_" gradientUnits="userSpaceOnUse" x1="214.9888" y1="412.2067" x2="215.0065" y2="412.2041" gradientTransform="matrix(1552.8103 0 0 -78.949 -332175.3125 32597.9863)">
+							<stop  offset="0" style="stop-color:#013989"/>
+							<stop  offset="1" style="stop-color:#7FDEF9"/>
+						</linearGradient>
+						<path id="path-4_1_" class="st4" d="M199.4,11c86.7-6.2,140.1-0.4,282.9,24.3s220.8,26,436.6,4.2s312-26.3,484.8-18.9
+							c164.5,4.3,215.4,27.8,273,55.3c57.6,27.5-1018.2,0.4-1018.2,0.4s-176.5-3.6-530.1-13.5C119.1,32.4,142.6,14.2,199.4,11z"/>
+					</g>
+				</g>
+				<path id="Path-10_1_" class="st5" d="M143.3,33.3c89.9-3.1,142.6,5.3,293.3,21s233,16.9,460.9,2.9s323.5-23.9,505.9-19.2
+					c173.7,2.7,233.5,24.7,294.4,42.3S622.7,80.6,622.7,80.6S436,77.4,62.6,71.1C56.5,48,83.4,35.4,143.3,33.3z"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

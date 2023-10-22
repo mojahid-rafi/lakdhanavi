@@ -278,6 +278,7 @@ function formvalidaton() {
     })
 }
 
+
 function dispSlider() {
     new Swiper(".disp-imgSlideer", {
         speed: 1e3,
@@ -285,12 +286,16 @@ function dispSlider() {
         loop: !0,
         effect: "fade",
         autoplay: {
-            delay: 4e3
+            delay: 1e3
         },
         navigation: {
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev"
-        }
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
     })
 }
 
@@ -312,6 +317,28 @@ function twitterslider() {
         }
     })
 }
+
+//timeline
+// function timeline() {
+//     new Swiper ('.timeline .swiper-container', {
+//         direction: 'vertical',
+//         loop: false,
+//         speed: 1600,
+//         pagination: '.swiper-pagination',
+//         paginationBulletRender: function (swiper, index, className) {
+//             var year = document.querySelectorAll('.swiper-slide')[index].getAttribute('data-year');
+//             return '<span class="' + className + '">' + year + '</span>';
+//         },
+//         paginationClickable: true,
+//         nextButton: '.swiper-button-next',
+//         prevButton: '.swiper-button-prev',
+//         breakpoints: {
+//             768: {
+//                 direction: 'horizontal',
+//             }
+//         }
+//     });
+// }
 
 function weBuild() {
     var e;
@@ -813,6 +840,21 @@ function init() {
     }), gotoCity(10)
 }
 
+//Contact Page Slider
+var swiper = new Swiper('.blog-slider', {
+    spaceBetween: 30,
+    effect: 'fade',
+    loop: true,
+    mousewheel: {
+        invert: false,
+    },
+    // autoHeight: true,
+    pagination: {
+        el: '.blog-slider__pagination',
+        clickable: true,
+    }
+});
+
 function addMarker(e, t, a, i) {
     var r = textureLoader.load("./assets/images/gloab/" + i),
         n = new THREE.SpriteMaterial({
@@ -904,7 +946,7 @@ function footerSlider() {
         freeMode: !0,
         spaceBetween: 10,
         grabCursor: !0,
-        slidesPerView: 6
+        slidesPerView: 5
     }, "loop", !0), _defineProperty(e, "autoplay", {
         delay: 1,
         disableOnInteraction: !0
@@ -913,10 +955,10 @@ function footerSlider() {
             slidesPerView: 5
         },
         768: {
-            slidesPerView: 8
+            slidesPerView: 5
         },
         1024: {
-            slidesPerView: 12
+            slidesPerView: 5
         }
     }), e);
     new Swiper(".flagSlider", t)
@@ -932,3 +974,5 @@ init(), animate(), $(document).ready(function() {
         $(".global-presence").css("background-image", "url(" + a + ")"), $("ul.number-panel").removeClass("numpanel-active"), $("ul#" + t).addClass("numpanel-active")
     })
 });
+
+

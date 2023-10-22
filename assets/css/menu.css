@@ -1,0 +1,87 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    /*background-color: #f9f9f9;*/
+    background-color: rgb(1, 57, 137);
+    color: #fff;
+    min-width: 160px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    top: 65px;
+    z-index: 1;
+    width: 220px;
+    transition: height 2s;
+}
+.dropdown-content-sub {
+    left: 100%;
+    top: 81px;
+    position: absolute;
+    width: 220px;
+    display: none;
+    background-color: rgb(1, 57, 137);
+    color: #fff;
+    min-width: 160px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    transition: height 2s;
+}
+.sticky-navigation .dropdown-content {
+    top: 35px;
+}
+
+li > ul > li {
+    border-bottom: 0.5px solid rgba(242, 244, 248, 0.7);
+    padding: 4px;
+    width: 100%;
+}
+
+#nav .wrap-nav .main-nav .sticky-navigation ul li > ul li
+{
+    margin-right: 0px;
+}
+.sticky-navigation .container--v ul li > ul li
+{
+    margin-right: 0px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content li:hover .dropdown-content-sub  {
+    display: block;
+}
+
+#nav .wrap-nav .main-nav .regular-menu ul li:hover{
+    color: red;
+}
+.title-cs
+{
+    font-family: 'Ruwudu', serif;
+}
+.context-heading
+{
+    font-family: Assistant;
+    font-size: 1rem;
+    letter-spacing: -0.71px;
+    width: 100%;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+.alt {
+    margin-left: 10px;
+    font-size: 6px;
+    border-left: 30px solid #f1b209;
+    border-right: 30px solid rgb(1, 57, 137);
+    vertical-align: middle;
+}
+.context-dtls{
+    font-family: Assistant;
+    font-size: 1rem;
+    letter-spacing: -0.71px;
+    text-align: justify;
+
+}

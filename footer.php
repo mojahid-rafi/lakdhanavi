@@ -1,145 +1,3 @@
-<div class="">
-    <div class="f-country-s">
-        <div class="swiper flagSlider swiper-initialized swiper-horizontal swiper-pointer-events swiper-free-mode">
-            <div class="swiper-wrapper"
-                 style="cursor: grab; transform: translate3d(-2416.67px, 0px, 0px); transition-duration: 5000ms;"
-                 id="swiper-wrapper-6bb31e8f5a3d81d4" aria-live="off">
-
-                <div class="swiper-slide" data-swiper-slide-index="0"
-                     style="width: 110.833px; margin-right: 10px;" role="group" aria-label="1 / 18">
-                    <a href="#singapore">
-                        <img src="./assets/images/flag/singapore.jpg" alt="flag">
-                    </a>
-                </div>
-
-                <div class="swiper-slide" data-swiper-slide-index="1"
-                     style="width: 110.833px; margin-right: 10px;" role="group" aria-label="2 / 18">
-                    <a href="#bangladesh">
-                        <img src="./assets/images/flag/bangladesh.jpg" alt="flag">
-                    </a>
-                </div>
-
-                <div class="swiper-slide" data-swiper-slide-index="2"
-                     style="width: 110.833px; margin-right: 10px;" role="group" aria-label="3 / 18">
-                    <a href="#india">
-                        <img src="./assets/images/flag/india.jpg" alt="flag">
-                    </a>
-                </div>
-
-                <div class="swiper-slide" data-swiper-slide-index="3"
-                     style="width: 110.833px; margin-right: 10px;" role="group" aria-label="4 / 18">
-                    <a href="#nepal">
-                        <img src="./assets/images/flag/nepal.jpg" alt="flag">
-                    </a>
-                </div>
-
-                <div class="swiper-slide" data-swiper-slide-index="4"
-                     style="width: 110.833px; margin-right: 10px;" role="group" aria-label="5 / 18">
-                    <a href="#srilanka">
-                        <img src="./assets/images/flag/srilanka.jpg" alt="flag">
-                    </a>
-                </div>
-
-                <div class="swiper-slide" data-swiper-slide-index="5"
-                     style="width: 110.833px; margin-right: 10px;" role="group" aria-label="6 / 18">
-                    <a href="#brazil">
-                        <img src="./assets/images/flag/brazil.jpg" alt="flag">
-                    </a>
-                </div>
-
-                <div class="swiper-slide" data-swiper-slide-index="6"
-                     style="width: 110.833px; margin-right: 10px;" role="group" aria-label="7 / 18">
-                    <a href="#iceland">
-                        <img src="./assets/images/flag/iceland.jpg" alt="flag">
-                    </a>
-                </div>
-
-                <div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="7"
-                     style="width: 110.833px; margin-right: 10px;" role="group" aria-label="8 / 18">
-                    <a href="#us">
-                        <img src="./assets/images/flag/us.jpg" alt="flag">
-                    </a>
-                </div>
-
-                <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="8"
-                     style="width: 110.833px; margin-right: 10px;" role="group" aria-label="9 / 18">
-                    <a href="#nigeria">
-                        <img src="./assets/images/flag/nigeria.jpg" alt="flag">
-                    </a>
-                </div>
-
-                <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="9"
-                     style="width: 110.833px; margin-right: 10px;" role="group" aria-label="10 / 18">
-                    <a href="#south-africa">
-                        <img src="./assets/images/flag/south-africa.jpg" alt="flag">
-                    </a>
-                </div>
-
-                <div class="swiper-slide" data-swiper-slide-index="10"
-                     style="width: 110.833px; margin-right: 10px;" role="group" aria-label="11 / 18">
-                    <a href="#sudan">
-                        <img src="./assets/images/flag/sudan.jpg" alt="flag">
-                    </a>
-                </div>
-
-                <div class="swiper-slide" data-swiper-slide-index="11"
-                     style="width: 110.833px; margin-right: 10px;" role="group" aria-label="12 / 18">
-                    <a href="#turkey">
-                        <img src="./assets/images/flag/turkey.jpg" alt="flag">
-                    </a>
-                </div>
-
-                <div class="swiper-slide" data-swiper-slide-index="12"
-                     style="width: 110.833px; margin-right: 10px;" role="group" aria-label="13 / 18">
-                    <a href="#south-africa.jpg">
-                        <img src="./assets/images/flag/south-africa.jpg" alt="flag">
-                    </a>
-                </div>
-
-                <div class="swiper-slide" data-swiper-slide-index="13"
-                     style="width: 110.833px; margin-right: 10px;" role="group" aria-label="14 / 18">
-                    <a href="#us">
-                        <img src="./assets/images/flag/us.jpg" alt="flag">
-                    </a>
-                </div>
-
-                <div class="swiper-slide" data-swiper-slide-index="14"
-                     style="width: 110.833px; margin-right: 10px;" role="group" aria-label="15 / 18">
-                    <a href="#turkey">
-                        <img src="./assets/images/flag/turkey.jpg" alt="flag">
-                    </a>
-                </div>
-
-                <div class="swiper-slide" data-swiper-slide-index="15"
-                     style="width: 110.833px; margin-right: 10px;" role="group" aria-label="16 / 18">
-                    <a href="#bangladesh">
-                        <img src="./assets/images/flag/bangladesh.jpg" alt="flag">
-                    </a>
-                </div>
-
-                <div class="swiper-slide" data-swiper-slide-index="16"
-                     style="width: 110.833px; margin-right: 10px;" role="group" aria-label="17 / 18">
-                    <a href="#nigeria">
-                        <img src="./assets/images/flag/nigeria.jpg" alt="flag">
-                    </a>
-                </div>
-
-                <div class="swiper-slide" data-swiper-slide-index="17"
-                     style="width: 110.833px; margin-right: 10px;" role="group" aria-label="18 / 18">
-                    <a href="#sudan">
-                        <img src="./assets/images/flag/sudan.jpg" alt="flag">
-                    </a>
-                </div>
-
-            </div>
-            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
-
-            <hr>
-        </div>
-        <span></span>
-
-    </div>
-</div>
 <section>
     <div class="container-fluid">
         <div class="row">
@@ -211,9 +69,9 @@
                                 </div>
 
                                 <ul>
-                                    <li><a href="#">Board Of Director</a></li>
-                                    <li><a href="#">Board Of Management</a></li>
-                                    <li><a href="#">Corporate Profile</a></li>
+                                    <li><a href="./our-team.php?team=bod">Board Of Director</a></li>
+                                    <li><a href="./our-team.php?team=mt">Management Team</a></li>
+                                    <li><a href="./our-team.php?team=cp">Corporate Profile</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -278,9 +136,12 @@
 
 
     <script src="./assets/js/lib.js"></script>
-    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
     <script src="./assets/js/swiperslider.min.js"></script>
-
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.js"></script>
+    <script src="./assets/js/wow.min.js"></script>
+    <script src="./assets/js/main.js"></script>
 
 <script>
     var btn = $('#button');
@@ -297,6 +158,51 @@
         e.preventDefault();
         $('html, body').animate({scrollTop:0}, '300');
     });
+
+    new WOW().init();
+
+
+    //Service
+    $(document).ready(function() {
+
+        var $slider = $(".slider"),
+            $slideBGs = $(".slide__bg"),
+            diff = 0,
+            curSlide = 0,
+            numOfSlides = $(".slide").length-1,
+            animating = false,
+            animTime = 500,
+            autoSlideTimeout,
+            autoSlideDelay = 6000,
+            $pagination = $(".slider-pagi");
+
+        function createBullets() {
+            for (var i = 0; i < numOfSlides+1; i++) {
+                var $li = $("<li class='slider-pagi__elem'></li>");
+                $li.addClass("slider-pagi__elem-"+i).data("page", i);
+                if (!i) $li.addClass("active");
+                $pagination.append($li);
+            }
+        };
+
+        createBullets();
+
+        function manageControls() {
+            $(".slider-control").removeClass("inactive");
+            if (!curSlide) $(".slider-control.left").addClass("inactive");
+            if (curSlide === numOfSlides) $(".slider-control.right").addClass("inactive");
+        };
+
+        function autoSlide() {
+            autoSlideTimeout = setTimeout(function() {
+                curSlide++;
+                if (curSlide > numOfSlides) curSlide = 0;
+                changeSlides();
+            }, autoSlideDelay);
+        };
+
+        autoSlide();
+
 </script>
 
 

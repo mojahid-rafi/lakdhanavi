@@ -41,7 +41,6 @@
         <section class="reports-element-box">
             <div class="container--v">
 
-
                 <div class="reports-box open" id="annual-reports" style="display: block;">
                     <div class="report-items-title">
                         <h2>Annual Reports</h2>
@@ -136,6 +135,14 @@
                     </div>
                 </div>
 
+
+               <div class="container--v bg-dark">
+                   <div class="row">
+                       <div class="col-12">
+                           <?php include ('./service.php'); ?>
+                       </div>
+                   </div>
+               </div>
 
 
             </div>

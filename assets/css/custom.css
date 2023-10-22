@@ -90,7 +90,6 @@
 
 
 
-
 /*responsive*/
 @media(max-width: 1024px){
 
@@ -189,7 +188,7 @@
 .team-wrap {
     /*max-width: 1200px;*/
     margin: 0 auto;
-    padding: 2rem;
+    padding: 1rem;
     /*position: absolute;*/
     top: 130px;
     font-family: Assistant;
@@ -199,7 +198,7 @@
 .team-title {
     color: var(--page-title);
     font-size: 2rem;
-    margin-bottom: 5rem;
+    margin-bottom: 1rem;
     margin-top: 0;
 }
 
@@ -220,7 +219,7 @@
 }
 .leadership .leader {
     width: 100%;
-    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    /*box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);*/
 }
 @media (min-width: 32em) {
     .leadership .leader {
@@ -233,10 +232,10 @@
 .leadership .leader:hover .leader__bio {
     background-color: var(--bio-bkg-hover);
 }
-.leadership .leader:hover .leader__img img {
-    transform: scale(140%);
-    filter: saturate(100%);
-}
+/*.leadership .leader:hover .leader__img img {*/
+    /*transform: scale(140%);*/
+    /*filter: saturate(100%);*/
+/*}*/
 .leadership .leader:hover .leader__name {
     color: var(--name-text-hover);
 }
@@ -277,6 +276,7 @@
     width: 100%;
     height: 300px;
     position: relative;
+    filter: saturate(100%);
 }
 .leadership .leader__img img {
     position: absolute;
@@ -284,8 +284,8 @@
     left: 0;
     right: 0;
     text-align: center;
-    width: 100%;
-    filter: saturate(0%);
+    width: 70%;
+    /*filter: saturate(0%);*/
     transform: scale(130%);
     transition: 0.2s all ease-in-out;
 }
@@ -322,4 +322,150 @@
     .leadership .leader__name h2 {
         font-size: 1rem;
     }
+}
+.cr-content
+{
+    font-family: Assistant;
+    text-shadow: 1px 0px 5px white;
+}
+
+.featurette-image.left.img-fluid.mx-auto {
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.featurette-image.right.img-fluid.mx-auto {
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+
+
+/*Milestone*/
+.milestone {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.milestone ul {
+    padding: 0;
+    margin: 0;
+    padding: 10px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    overflow: auto;
+    font-family: Assistant;
+}
+.milestone ul li {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.milestone ul li {
+    padding-top: 10px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    min-width: 115px;
+}
+.milestone ul li:last-child:after {
+    display: none;
+}
+.milestone ul li:first-child:before {
+    display: none;
+}
+.milestone ul li.active:before, .milestone ul li.active:after {
+    border: 1px solid #f1b209;
+}
+.milestone ul li.current:before {
+    border: 1px solid #f1b209;
+}
+.milestone ul li:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 50%;
+    border: 1px solid #b7b7b7;
+    left: 0;
+}
+.milestone ul li:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 50%;
+    border: 1px solid #b7b7b7;
+    right: 0;
+}
+.milestone li span {
+    color: #b7b7b7;
+    cursor: pointer;
+}
+.milestone li span:after {
+    position: absolute;
+    content: "";
+    width: 8px;
+    height: 8px;
+    background: #b7b7b7;
+    border-radius: 100%;
+    top: -3px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+.milestone li.current span, .milestone li.active span {
+    color: #073477;
+}
+.milestone li.current span:after, .milestone li.active span:after {
+    background: #073477;
+}
+.milestone li.current {
+    font-size: 18px;
+    font-weight: bold;
+}
+.milestone li.current span:after {
+    transform: scale(1.5);
+    transform-origin: 50% 50%;
+}
+
+.content-milestone {
+    margin: 45px 0;
+    display: flex;
+    justify-content: center;
+    padding: 0 50px;
+}
+.content-milestone ul {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-width: 760px;
+    overflow: hidden;
+}
+.content-milestone ul li {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.content-milestone ul li {
+    display: none;
+}
+.content-milestone ul li.active {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.content-milestone .image {
+    width: 100%;
+    height: auto;
+}
+.content-milestone .explain {
+    padding: 20px 0;
+    font-family: Assistant;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #073477;
 }

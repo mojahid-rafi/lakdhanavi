@@ -3,14 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Lakdhanavi Group - Imagine The Possibilities | Investment in Sri Lanka</title>
     <meta name="description" content="Lakdhanavi is one of the largest and most diversified conglomerates in Sri Lanka. Discover the best opportunities to invest in Sri Lanka by Lakdhanavi group."><meta name="keywords" content="LOLC"><link rel="canonical" href="https://www.lolc.com"><meta name="robots" content="all"><meta property="og:title" content="LOLC Group - Imagine The Possibilities | Investment in Sri Lanka"><meta property="og:description" content="LOLC is one of the largest and most diversified conglomerates in Sri Lanka. Discover the best opportunities to invest in Sri Lanka by LOLC group."><meta property="og:type" content="website"><meta property="og:url" content="http://www.lolc.com"><meta name="twitter:title" content="LOLC Group - Imagine The Possibilities | Investment in Sri Lanka"><meta name="twitter:description" content="LOLC is one of the largest and most diversified conglomerates in Sri Lanka. Discover the best opportunities to invest in Sri Lanka by LOLC group."><meta name="twitter:site" content="@LOLCOfficial"><script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"LOLC Group - Imagine The Possibilities | Investment in Sri Lanka","description":"LOLC is one of the largest and most diversified conglomerates in Sri Lanka. Discover the best opportunities to invest in Sri Lanka by LOLC group.","image":""}</script>
     <link rel="stylesheet" href="./assets/css/lib.css">
+    <link rel="stylesheet" href="./assets/css/animate.css">
     <link rel="stylesheet" href="./assets/css/main.css">
-    <link rel="stylesheet" href="./assets/css/content_script.css">
-    <link rel="stylesheet" href="./assets/css/pip_Toggle.css">
+<!--    <link rel="stylesheet" href="./assets/css/content_script.css">-->
     <link rel="stylesheet" href="./assets/css/custom.css">
+    <link rel="stylesheet" href="./assets/css/menu.css">
 
     <link rel="shortcut icon" type="image/jpg" href="#">
 
@@ -22,19 +25,24 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ruwudu:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
-    
+
+
 </head>
 
-<body class="onload <?php echo $cls; ?>" id="pin" style="" cz-shortcut-listen="true" data-new-gr-c-s-check-loaded="8.905.0" data-gr-ext-installed="">
+<body class="<?php echo $cls; ?>" id="pin">
 <main class="loc-anim">
 
-    <nav id="nav" data-scroll-section="">
+    <nav id="nav" class="banner-section-cs-bg" data-scroll-section="">
         <div class="container--v">
             <div class="wrap-nav desktop-nav">
                 <div class="log-sec">
                     <a href="/">
-                        <img src="./assets/images/logo/ltl_short_logo.png" alt="logo">
+                        <img src="./assets/images/logo/ltl_logo_bd_operations.png" alt="logo">
                     </a>
                 </div>
                 <div class="main-nav">
@@ -76,31 +84,87 @@
                     </div>
 
                     <div class="regular-menu">
+
                         <ul class="nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="./about-us.php">About us</a>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="javascript:void();">About us</a>
+                                <ul class="dropdown-content">
+                                    <li>
+                                        <a href="./our-team.php?team=cp">Corporate Profile</a>
+                                    </li>
+                                    <li>
+                                        <a href="./our-team.php?team=bod">Board Of Directors</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="./our-team.php?team=mt">Management Team</a>
+                                        <ul class="dropdown-content-sub">
+                                            <li>
+                                                <a href="./our-team.php?team=co">Corporate Office</a>
+                                            </li>
+                                            <li>
+                                                <a href="./our-team.php?team=rlpcl">RLPCL</a>
+                                            </li>
+                                            <li>
+                                                <a href="./our-team.php?team=lbpl">LBPL</a>
+                                            </li>
+                                            <li>
+                                                <a href="./our-team.php?team=flpl">FLPL</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                </ul>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="javascript:void();">Core Business</a>
+                                <ul class="dropdown-content">
+                                    <li>
+                                        <a href="./power-generation.php">Power Generation</a>
+                                    </li>
+                                    <li>
+                                        <a href="./epc.php">EPC</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="./o-and-m.php">O &amp; M</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="./global.php?country=Bangladesh">Global</a>
+                                <ul class="dropdown-content">
+                                    <li>
+                                        <a href="./global.php?con=bd">Bangladesh</a>
+                                    </li>
+                                    <li>
+                                        <a href="./global.php?con=sg">Singapore</a>
+                                    </li>
+                                    <li>
+                                        <a href="./global.php?con=in">India</a>
+                                    </li>
+                                    <li>
+                                        <a href="./global.php?con=np">Nepal</a>
+                                    </li>
+                                    <li>
+                                        <a href="./global.php?con=sl">Sri Lanka</a>
+                                    </li>
+                                </ul>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="core-business.php">Core Business</a>
+                                <a class="nav-link" href="./esg.php">ESG</a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="esg.php">ESG</a>
+                                <a class="nav-link" href="./award.php">Awards</a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="./global.php?country=Singapore">Global</a>
+                                <a class="nav-link" href="./gallery.php">Gallery</a>
                             </li>
-
-<!--                            <li class="nav-item">-->
-<!--                                <a class="nav-link" href="./investor-relations.php">Investor Relations</a>-->
-<!--                            </li>-->
-
-<!--                            <li class="nav-item">-->
-<!--                                <a class="nav-link" href="./investor-relations.php">Commercials</a>-->
-<!--                            </li>-->
-
 
                             <li class="nav-item">
                                 <a class="nav-link" href="./contact.php">Contact Us</a>
@@ -179,6 +243,7 @@
             </div>
         </div>
     </nav>
+
     <div class="mobile-dropdwn">
         <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav mr-auto nav menu-top">
@@ -201,30 +266,82 @@
             </ul>
 
             <ul class="navbar-nav mr-auto nav menu-main">
-                <li class="nav-item">
-                    <a class="nav-link" href="./about-us.php">About us</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="javascript:void();">About us</a>
+                    <ul class="dropdown-content">
+                        <li>
+                            <a href="./our-team.php?team=cp">Corporate Profile</a>
+                        </li>
+                        <li>
+                            <a href="./our-team.php?team=bod">Board Of Directors</a>
+                        </li>
+
+                        <li>
+                            <a href="./our-team.php?team=mt">Management Team</a>
+                        </li>
+                        <li>
+                            <a href="./our-team.php?team=co">Corporate Office</a>
+                        </li>
+                        <li>
+                            <a href="./our-team.php?team=rlpcl">RLPCL</a>
+                        </li>
+                        <li>
+                            <a href="./our-team.php?team=lbpl">LBPL</a>
+                        </li>
+                        <li>
+                            <a href="./our-team.php?team=flpl">FLPL</a>
+                        </li>
+                    </ul>
                 </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="core-business.php">Core Business</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="javascript:void();">Core Business</a>
+                    <ul class="dropdown-content">
+                        <li>
+                            <a href="./power-generation.php">Power Generation</a>
+                        </li>
+                        <li>
+                            <a href="./epc.php">EPC</a>
+                        </li>
+
+                        <li>
+                            <a href="./o-and-m.php">O &amp; M</a>
+                        </li>
+                    </ul>
                 </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="esg.php">ESG</a>
-                </li>
-
-                <li class="nav-item">
+                <li class="nav-item dropdown">
                     <a class="nav-link" href="./global.php?country=Singapore">Global</a>
+                    <ul class="dropdown-content">
+                        <li>
+                            <a href="./global.php?con=bd">Bangladesh</a>
+                        </li>
+                        <li>
+                            <a href="./global.php?con=sg">Singapore</a>
+                        </li>
+                        <li>
+                            <a href="./global.php?con=in">India</a>
+                        </li>
+                        <li>
+                            <a href="./global.php?con=np">Nepal</a>
+                        </li>
+                        <li>
+                            <a href="./global.php?con=sl">Sri Lanka</a>
+                        </li>
+                    </ul>
                 </li>
 
-                <!--                            <li class="nav-item">-->
-                <!--                                <a class="nav-link" href="./investor-relations.php">Investor Relations</a>-->
-                <!--                            </li>-->
+                <li class="nav-item">
+                    <a class="nav-link" href="./esg.php">ESG</a>
+                </li>
 
-                <!--                            <li class="nav-item">-->
-                <!--                                <a class="nav-link" href="./investor-relations.php">Commercials</a>-->
-                <!--                            </li>-->
+                <li class="nav-item">
+                    <a class="nav-link" href="./award.php">Awards</a>
+                </li>
 
+                <li class="nav-item">
+                    <a class="nav-link" href="./gallery.php">Gallery</a>
+                </li>
 
                 <li class="nav-item">
                     <a class="nav-link" href="./contact.php">Contact Us</a>
@@ -242,31 +359,82 @@
                 <img src="#" alt="logo">
             </a>
             <ul class="nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="javascript:void();">About us</a>
+                    <ul class="dropdown-content">
+                        <li>
+                            <a href="./our-team.php?team=cp">Corporate Profile Team</a>
+                        </li>
+                        <li>
+                            <a href="./our-team.php?team=bod">Board Of Directors</a>
+                        </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="./about-us.php">About us</a>
+                        <li>
+                            <a href="./our-team.php?team=mt">Management Team</a>
+                        </li>
+                        <li>
+                            <a href="./our-team.php?team=co">Corporate Office</a>
+                        </li>
+                        <li>
+                            <a href="./our-team.php?team=rlpcl">RLPCL</a>
+                        </li>
+                        <li>
+                            <a href="./our-team.php?team=lbpl">LBPL</a>
+                        </li>
+                        <li>
+                            <a href="./our-team.php?team=flpl">FLPL</a>
+                        </li>
+                    </ul>
                 </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="core-business.php">Core Business</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="javascript:void();">Core Business</a>
+                    <ul class="dropdown-content">
+                        <li>
+                            <a href="./power-generation.php">Power Generation</a>
+                        </li>
+                        <li>
+                            <a href="./epc.php">EPC</a>
+                        </li>
+
+                        <li>
+                            <a href="./o-and-m.php">O &amp; M</a>
+                        </li>
+                    </ul>
                 </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="esg.php">ESG</a>
-                </li>
-
-                <li class="nav-item">
+                <li class="nav-item dropdown">
                     <a class="nav-link" href="./global.php?country=Singapore">Global</a>
+                    <ul class="dropdown-content">
+                        <li>
+                            <a href="./global.php?con=bd">Bangladesh</a>
+                        </li>
+                        <li>
+                            <a href="./global.php?con=sg">Singapore</a>
+                        </li>
+                        <li>
+                            <a href="./global.php?con=in">India</a>
+                        </li>
+                        <li>
+                            <a href="./global.php?con=np">Nepal</a>
+                        </li>
+                        <li>
+                            <a href="./global.php?con=sl">Sri Lanka</a>
+                        </li>
+                    </ul>
                 </li>
 
-                <!--                            <li class="nav-item">-->
-                <!--                                <a class="nav-link" href="./investor-relations.php">Investor Relations</a>-->
-                <!--                            </li>-->
+                <li class="nav-item">
+                    <a class="nav-link" href="./esg.php">ESG</a>
+                </li>
 
-                <!--                            <li class="nav-item">-->
-                <!--                                <a class="nav-link" href="./investor-relations.php">Commercials</a>-->
-                <!--                            </li>-->
+                <li class="nav-item">
+                    <a class="nav-link" href="./award.php">Awards</a>
+                </li>
 
+                <li class="nav-item">
+                    <a class="nav-link" href="./gallery.php">Gallery</a>
+                </li>
 
                 <li class="nav-item">
                     <a class="nav-link" href="./contact.php">Contact Us</a>
@@ -283,30 +451,81 @@
             </a>
             <ul class="nav">
 
-                <li class="nav-item">
-                    <a class="nav-link" href="./about-us.php">About us</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="javascript:void();">About us</a>
+                    <ul class="dropdown-content">
+                        <li>
+                            <a href="./our-team.php?team=cp">Corporate Profile Team</a>
+                        </li>
+                        <li>
+                            <a href="./our-team.php?team=bod">Board Of Directors</a>
+                        </li>
+                        <li>
+                            <a href="./our-team.php?team=mt">Management Team</a>
+                        </li>
+                        <li>
+                            <a href="./our-team.php?team=co">Corporate Office</a>
+                        </li>
+                        <li>
+                            <a href="./our-team.php?team=rlpcl">RLPCL</a>
+                        </li>
+                        <li>
+                            <a href="./our-team.php?team=lbpl">LBPL</a>
+                        </li>
+                        <li>
+                            <a href="./our-team.php?team=flpl">FLPL</a>
+                        </li>
+                    </ul>
                 </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="core-business.php">Core Business</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="javascript:void();">Core Business</a>
+                    <ul class="dropdown-content">
+                        <li>
+                            <a href="./power-generation.php">Power Generation</a>
+                        </li>
+                        <li>
+                            <a href="./epc.php">EPC</a>
+                        </li>
+
+                        <li>
+                            <a href="./o-and-m.php">O &amp; M</a>
+                        </li>
+                    </ul>
                 </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="esg.php">ESG</a>
-                </li>
-
-                <li class="nav-item">
+                <li class="nav-item dropdown">
                     <a class="nav-link" href="./global.php?country=Singapore">Global</a>
+                    <ul class="dropdown-content">
+                        <li>
+                            <a href="./global.php?con=bd">Bangladesh</a>
+                        </li>
+                        <li>
+                            <a href="./global.php?con=sg">Singapore</a>
+                        </li>
+                        <li>
+                            <a href="./global.php?con=in">India</a>
+                        </li>
+                        <li>
+                            <a href="./global.php?con=np">Nepal</a>
+                        </li>
+                        <li>
+                            <a href="./global.php?con=sl">Sri Lanka</a>
+                        </li>
+                    </ul>
                 </li>
 
-                <!--                            <li class="nav-item">-->
-                <!--                                <a class="nav-link" href="./investor-relations.php">Investor Relations</a>-->
-                <!--                            </li>-->
+                <li class="nav-item">
+                    <a class="nav-link" href="./esg.php">ESG</a>
+                </li>
 
-                <!--                            <li class="nav-item">-->
-                <!--                                <a class="nav-link" href="./investor-relations.php">Commercials</a>-->
-                <!--                            </li>-->
+                <li class="nav-item">
+                    <a class="nav-link" href="./award.php">Awards</a>
+                </li>
 
+                <li class="nav-item">
+                    <a class="nav-link" href="./gallery.php">Gallery</a>
+                </li>
 
                 <li class="nav-item">
                     <a class="nav-link" href="./contact.php">Contact Us</a>

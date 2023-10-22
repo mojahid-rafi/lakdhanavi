@@ -1,0 +1,131 @@
+.container {
+    padding-top: 50px;
+  }
+  
+  .milestone {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .milestone ul {
+    padding: 0;
+    margin: 0;
+    padding: 10px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    overflow: auto;
+  }
+  .milestone ul li {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+  .milestone ul li {
+    padding-top: 10px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    min-width: 115px;
+  }
+  .milestone ul li:last-child:after {
+    display: none;
+  }
+  .milestone ul li:first-child:before {
+    display: none;
+  }
+  .milestone ul li.active:before, .milestone ul li.active:after {
+    border: 1px solid #06bbe8;
+  }
+  .milestone ul li.current:before {
+    border: 1px solid #06bbe8;
+  }
+  .milestone ul li:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 50%;
+    border: 1px solid #b7b7b7;
+    left: 0;
+  }
+  .milestone ul li:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 50%;
+    border: 1px solid #b7b7b7;
+    right: 0;
+  }
+  .milestone li span {
+    color: #b7b7b7;
+    cursor: pointer;
+  }
+  .milestone li span:after {
+    position: absolute;
+    content: "";
+    width: 8px;
+    height: 8px;
+    background: #b7b7b7;
+    border-radius: 100%;
+    top: -3px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+  }
+  .milestone li.current span, .milestone li.active span {
+    color: #06bbe8;
+  }
+  .milestone li.current span:after, .milestone li.active span:after {
+    background: #06bbe8;
+  }
+  .milestone li.current {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .milestone li.current span:after {
+    transform: scale(1.5);
+    transform-origin: 50% 50%;
+  }
+  
+  .content-milestone {
+    margin: 45px 0;
+    display: flex;
+    justify-content: center;
+    padding: 0 50px;
+  }
+  .content-milestone ul {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-width: 760px;
+    overflow: hidden;
+  }
+  .content-milestone ul li {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+  .content-milestone ul li {
+    display: none;
+  }
+  .content-milestone ul li.active {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .content-milestone .image {
+    width: 100%;
+    height: auto;
+  }
+  .content-milestone .explain {
+    padding: 20px 0;
+  }
+  
+  /* .content {
+    display: block;
+    height: 150px;
+    background: #000;
+  } */
