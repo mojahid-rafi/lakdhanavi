@@ -7,6 +7,8 @@
         <div class="wrap-build-globaly">
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
+                    <?php if(isset($_GET["con"]) && $_GET["con"] == "bd") { ?>
+
                     <div class="swiper-slide ani-gloabal-slider">
                         <div class="image-iteam">
                             <div class="image-wrap">
@@ -27,6 +29,7 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="swiper-slide ani-gloabal-slider">
                         <div class="image-iteam">
                             <div class="image-wrap">
@@ -47,6 +50,7 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="swiper-slide ani-gloabal-slider">
                         <div class="image-iteam">
                             <div class="image-wrap">
@@ -67,6 +71,7 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="swiper-slide ani-gloabal-slider">
                         <div class="image-iteam">
                             <div class="image-wrap">
@@ -87,6 +92,7 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="swiper-slide ani-gloabal-slider">
                         <div class="image-iteam">
                             <div class="image-wrap">
@@ -107,6 +113,23 @@
                             </div>
                         </div>
                     </div>
+                    <?php } ?>
+
+                    <?php if(isset($_GET["con"]) && $_GET["con"] == "sg") { ?>
+
+                    <?php } ?>
+
+                    <?php if(isset($_GET["con"]) && $_GET["con"] == "in") { ?>
+
+                    <?php } ?>
+
+                    <?php if(isset($_GET["con"]) && $_GET["con"] == "np") { ?>
+
+                    <?php } ?>
+
+                    <?php if(isset($_GET["con"]) && $_GET["con"] == "sl") { ?>
+
+                    <?php } ?>
                 </div>
                 <div class="swiper-button-next wrap-ovel-icon">
                     <div class="ovel-icon">

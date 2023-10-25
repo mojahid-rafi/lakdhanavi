@@ -95,7 +95,6 @@
                                     <li>
                                         <a href="./our-team.php?team=bod">Board Of Directors</a>
                                     </li>
-
                                     <li>
                                         <a href="./our-team.php?team=mt">Management Team</a>
                                         <ul class="dropdown-content-sub">
@@ -113,7 +112,6 @@
                                             </li>
                                         </ul>
                                     </li>
-
                                 </ul>
                             </li>
 
@@ -278,18 +276,20 @@
 
                         <li>
                             <a href="./our-team.php?team=mt">Management Team</a>
-                        </li>
-                        <li>
-                            <a href="./our-team.php?team=co">Corporate Office</a>
-                        </li>
-                        <li>
-                            <a href="./our-team.php?team=rlpcl">RLPCL</a>
-                        </li>
-                        <li>
-                            <a href="./our-team.php?team=lbpl">LBPL</a>
-                        </li>
-                        <li>
-                            <a href="./our-team.php?team=flpl">FLPL</a>
+                            <ul class="dropdown-content-sub">
+                                <li>
+                                    <a href="./our-team.php?team=co">Corporate Office</a>
+                                </li>
+                                <li>
+                                    <a href="./our-team.php?team=rlpcl">RLPCL</a>
+                                </li>
+                                <li>
+                                    <a href="./our-team.php?team=lbpl">LBPL</a>
+                                </li>
+                                <li>
+                                    <a href="./our-team.php?team=flpl">FLPL</a>
+                                </li>
+                            </ul>
                         </li>
                     </ul>
                 </li>
@@ -371,18 +371,20 @@
 
                         <li>
                             <a href="./our-team.php?team=mt">Management Team</a>
-                        </li>
-                        <li>
-                            <a href="./our-team.php?team=co">Corporate Office</a>
-                        </li>
-                        <li>
-                            <a href="./our-team.php?team=rlpcl">RLPCL</a>
-                        </li>
-                        <li>
-                            <a href="./our-team.php?team=lbpl">LBPL</a>
-                        </li>
-                        <li>
-                            <a href="./our-team.php?team=flpl">FLPL</a>
+                            <ul class="dropdown-content-sub">
+                                <li>
+                                    <a href="./our-team.php?team=co">Corporate Office</a>
+                                </li>
+                                <li>
+                                    <a href="./our-team.php?team=rlpcl">RLPCL</a>
+                                </li>
+                                <li>
+                                    <a href="./our-team.php?team=lbpl">LBPL</a>
+                                </li>
+                                <li>
+                                    <a href="./our-team.php?team=flpl">FLPL</a>
+                                </li>
+                            </ul>
                         </li>
                     </ul>
                 </li>
@@ -462,18 +464,20 @@
                         </li>
                         <li>
                             <a href="./our-team.php?team=mt">Management Team</a>
-                        </li>
-                        <li>
-                            <a href="./our-team.php?team=co">Corporate Office</a>
-                        </li>
-                        <li>
-                            <a href="./our-team.php?team=rlpcl">RLPCL</a>
-                        </li>
-                        <li>
-                            <a href="./our-team.php?team=lbpl">LBPL</a>
-                        </li>
-                        <li>
-                            <a href="./our-team.php?team=flpl">FLPL</a>
+                            <ul class="dropdown-content-sub">
+                                <li>
+                                    <a href="./our-team.php?team=co">Corporate Office</a>
+                                </li>
+                                <li>
+                                    <a href="./our-team.php?team=rlpcl">RLPCL</a>
+                                </li>
+                                <li>
+                                    <a href="./our-team.php?team=lbpl">LBPL</a>
+                                </li>
+                                <li>
+                                    <a href="./our-team.php?team=flpl">FLPL</a>
+                                </li>
+                            </ul>
                         </li>
                     </ul>
                 </li>

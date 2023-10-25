@@ -25,12 +25,55 @@
         </section>
 
 
-        <section class="profile-p">
+        <section class="bg-light">
             <div class="container--v">
                 <div class="row p-lg-5">
-                    <div class="offset-2 col-8">
-                        <div class="profile-card">
-                            <?php include "./con-profile.php"; ?>
+                    <div class="col-4 p-1">
+                        <div class="d-flex flex-row">
+                            <div class="contact-img">
+                                <img src="./assets/images/contact/mahmudur.png" class="img-thumbnail" width="150px" alt="">
+                            </div>
+                            <div class="contact-content ml-3">
+                                <p class="card-title font-weight-bold border-bottom d-block">Power Generation</p>
+                                <div class="font-weight-bold ">Mr. Mahmudur Rahmanur</div>
+                                <div class="contact-text">
+                                    <p><span class="fa fa-square"></span> Head of Electrical</p>
+                                    <p><span class="fa fa-envelope"></span> mahmudur@lakdhanavibd.com</p>
+                                    <p><span class="fa fa-phone-square"></span> (+88) 01401-110841</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 p-1">
+                        <div class="d-flex flex-row">
+                            <div class="contact-img">
+                                <img src="./assets/images/contact/lisa.png" class="img-thumbnail" width="150px" alt="">
+                            </div>
+                            <div class="contact-content ml-3">
+                                <p class="card-title font-weight-bold border-bottom d-block">EPC Department</p>
+                                <div class="font-weight-bold">Samina Alam Lisa</div>
+                                <div class="contact-text">
+                                    <p><span class="fa fa-square"></span> Asst. Manager - Business Dev.</p>
+                                    <p><span class="fa fa-envelope"></span> lisa@lakdhanavibd.com</p>
+                                    <p><span class="fa fa-phone-square"></span> (+88) 01401-110841</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 p-1">
+                        <div class="d-flex flex-row">
+                            <div class="contact-img">
+                                <img src="./assets/images/contact/saiful.png" class="img-thumbnail" width="150px" alt="">
+                            </div>
+                            <div class="contact-content ml-3">
+                                <p class="card-title font-weight-bold border-bottom d-block">O &amp; M Department</p>
+                                <div class="font-weight-bold">Mr. Saiful Islam</div>
+                                <div class="contact-text">
+                                    <p><span class="fa fa-square"></span> Senior Plant Manager (FLPL)</p>
+                                    <p><span class="fa fa-envelope"></span> saiful@lakdhanavibd.com</p>
+                                    <p><span class="fa fa-phone-square"></span> (+88) 01401-110805</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

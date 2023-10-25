@@ -19,17 +19,21 @@
                                         {
                                             echo "Corporate Profile";
                                         }
+                                        elseif (isset($_GET["team"]) && $_GET["team"] == "co")
+                                        {
+                                            echo "Corporate Office";
+                                        }
                                         elseif (isset($_GET["team"]) && $_GET["team"] == "rlpcl")
                                         {
-                                            echo "RLPCL Profile";
+                                            echo "RLPCL Office";
                                         }
                                         elseif (isset($_GET["team"]) && $_GET["team"] == "lbpl")
                                         {
-                                            echo "LBPL Profile";
+                                            echo "LBPL Office";
                                         }
                                         elseif (isset($_GET["team"]) && $_GET["team"] == "flpl")
                                         {
-                                            echo "FLPL Profile";
+                                            echo "FLPL Office";
                                         }
                                     ?>
                                 </h2>
@@ -183,7 +187,7 @@
 
                                     <div class="leader mng-team">
                                         <div class="leader__img">
-                                            <img src="./assets/images/management-team/gamini.png" class="img-fluid" alt="Amanda Maynard">
+                                            <img src="./assets/images/management-team/corporate-office/gamini.png" class="img-fluid" alt="Amanda Maynard">
                                         </div>
                                         <div class="leader__name">
                                             <h2>Mr. U Gamini Sarath</h2>
@@ -193,7 +197,7 @@
 
                                     <div class="leader mng-team">
                                         <div class="leader__img">
-                                            <img src="./assets/images/management-team/thamaka.png" class="img-fluid" alt="Sammy Cotillard">
+                                            <img src="./assets/images/management-team/corporate-office/thamaka.png" class="img-fluid" alt="Sammy Cotillard">
                                         </div>
                                         <div class="leader__name">
                                             <h2>Mr. Thamaka Thimbiripola</h2>
@@ -203,7 +207,7 @@
 
                                     <div class="leader mng-team">
                                         <div class="leader__img">
-                                            <img src="./assets/images/management-team/moin.png" alt="Todd Fletcher">
+                                            <img src="./assets/images/management-team/corporate-office/moin.png" alt="Todd Fletcher">
                                         </div>
                                         <div class="leader__name">
                                             <h2>Mr. Moin Uddin Ahmed</h2>
@@ -213,7 +217,7 @@
 
                                     <div class="leader mng-team">
                                         <div class="leader__img">
-                                            <img src="./assets/images/management-team/mahmud.png" alt="Todd Fletcher">
+                                            <img src="./assets/images/management-team/corporate-office/mahmud.png" alt="Todd Fletcher">
                                         </div>
                                         <div class="leader__name">
                                             <h2>Mr. Mahmudur Rahaman</h2>
@@ -223,7 +227,7 @@
 
                                     <div class="leader mng-team">
                                         <div class="leader__img">
-                                            <img src="./assets/images/management-team/debashish.png" alt="Todd Fletcher">
+                                            <img src="./assets/images/management-team/corporate-office/debashish.png" alt="Todd Fletcher">
                                         </div>
                                         <div class="leader__name">
                                             <h2>Mr. Debashis Bhattacharjee</h2>
@@ -233,7 +237,7 @@
 
                                     <div class="leader mng-team">
                                         <div class="leader__img">
-                                            <img src="./assets/images/management-team/musfiqur.png" alt="Todd Fletcher">
+                                            <img src="./assets/images/management-team/corporate-office/musfiqur.png" alt="Todd Fletcher">
                                         </div>
                                         <div class="leader__name">
                                             <h2>Mr. Musfiqur Rahman</h2>
@@ -246,7 +250,17 @@
                                 <?php if(isset($_GET["team"]) && $_GET["team"] == "rlpcl") { ?>
                                     <div class="leader mng-team">
                                         <div class="leader__img">
-                                            <img src="./assets/images/management-team/musfiqur.png" alt="Todd Fletcher">
+                                            <img src="./assets/images/management-team/rlpcl/selim-ashraf.png" alt="Todd Fletcher">
+                                        </div>
+                                        <div class="leader__name">
+                                            <h2>RLPCL</h2>
+                                            <p><em>Manager - Com. & Supply Chains</em></p>
+                                        </div>
+                                    </div>
+
+                                    <div class="leader mng-team">
+                                        <div class="leader__img">
+                                            <img src="./assets/images/management-team/rlpcl/Tarequl-Islam-Tareq.png" alt="Todd Fletcher">
                                         </div>
                                         <div class="leader__name">
                                             <h2>RLPCL</h2>
@@ -259,7 +273,17 @@
                                 <?php if(isset($_GET["team"]) && $_GET["team"] == "lbpl") { ?>
                                     <div class="leader mng-team">
                                         <div class="leader__img">
-                                            <img src="./assets/images/management-team/musfiqur.png" alt="Todd Fletcher">
+                                            <img src="./assets/images/management-team/lbpl/mizanur.png" alt="Todd Fletcher">
+                                        </div>
+                                        <div class="leader__name">
+                                            <h2>LBPL</h2>
+                                            <p><em>Manager - Com. & Supply Chains</em></p>
+                                        </div>
+                                    </div>
+
+                                    <div class="leader mng-team">
+                                        <div class="leader__img">
+                                            <img src="./assets/images/management-team/lbpl/Mohiuddin.png" alt="Todd Fletcher">
                                         </div>
                                         <div class="leader__name">
                                             <h2>LBPL</h2>
@@ -272,7 +296,17 @@
                                 <?php if(isset($_GET["team"]) && $_GET["team"] == "flpl") { ?>
                                     <div class="leader mng-team">
                                         <div class="leader__img">
-                                            <img src="./assets/images/management-team/musfiqur.png" alt="Todd Fletcher">
+                                            <img src="./assets/images/management-team/flpl/saiful.png" alt="Todd Fletcher">
+                                        </div>
+                                        <div class="leader__name">
+                                            <h2>FLPL</h2>
+                                            <p><em>Manager - Com. & Supply Chains</em></p>
+                                        </div>
+                                    </div>
+
+                                    <div class="leader mng-team">
+                                        <div class="leader__img">
+                                            <img src="./assets/images/management-team/flpl/tawsif.png" alt="Todd Fletcher">
                                         </div>
                                         <div class="leader__name">
                                             <h2>FLPL</h2>
@@ -288,7 +322,9 @@
                 </div>
             </section>
 
-            <section class="crp-profile mb-lg-5"  <?php if(isset($_GET["team"]) && $_GET["team"] == "bod" || $_GET["team"] == "mt") { echo "hidden"; }?>>
+
+            <?php if(isset($_GET["team"]) && $_GET["team"] == "cp") { ?>
+            <section class="crp-profile mb-lg-5">
 
                 <div class="container--v">
                     <div class="row">
@@ -469,6 +505,7 @@
 
                 </div>
             </section>
+            <?php } ?>
 
 
         </div>
